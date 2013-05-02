@@ -58,3 +58,22 @@ fingers as well and name it appropriately.
 Using devices
 -------------
 See the evemu man pages for how to create devices and re-play events.
+
+x.org.conf.d snippets
+---------------------
+If you're recording a touchpad or a Wacom device, you may not see events
+because the X driver has a grab on the device.
+Save this in your /etc/X11/xorg.conf.d/99-dontgrab.conf
+<pre>
+Section "InputClass"
+	Identifier "Don't grab synaptics"
+	MatchDriver "synaptics"
+	Option "GrabEventDevice" "off"
+EndSection
+
+Section "InputClass"
+	Identifier "Don't grab wacom"
+	MatchDriver "wacom"
+	Option "GrabDevice" "off"
+EndSection
+</pre>
