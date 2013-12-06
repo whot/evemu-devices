@@ -1,0 +1,149 @@
+# EVEMU 1.2
+# Input device name: "AlpsPS/2 ALPS GlidePoint"
+# Input device ID: bus 0x11 vendor 0x02 product 0x08 version 0x300
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 325 (BTN_TOOL_FINGER)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 333 (BTN_TOOL_DOUBLETAP)
+#     Event code 334 (BTN_TOOL_TRIPLETAP)
+#     Event code 335 (BTN_TOOL_QUADTAP)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value    909
+#       Min        0
+#       Max     2000
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value    525
+#       Min        0
+#       Max     1400
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 24 (ABS_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max     2000
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max     1400
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+#   Property  type 3 (INPUT_PROP_SEMI_MT)
+N: AlpsPS/2 ALPS GlidePoint
+I: 0011 0002 0008 0300
+P: 08 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 07 00 00 00 00 00
+B: 01 20 e4 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 00 00 01 00 80 60 02
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 2000 0 0 0
+A: 01 0 1400 0 0 0
+A: 18 0 127 0 0 0
+A: 2f 0 1 0 0 0
+A: 35 0 2000 0 0 0
+A: 36 0 1400 0 0 0
+A: 39 0 65535 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000000 0003 0039 0007	# EV_ABS / ABS_MT_TRACKING_ID   7
+E: 0.000000 0003 0035 1038	# EV_ABS / ABS_MT_POSITION_X    1038
+E: 0.000000 0003 0036 0595	# EV_ABS / ABS_MT_POSITION_Y    595
+E: 0.000000 0001 0145 0001	# EV_KEY / BTN_TOOL_FINGER      1
+E: 0.000000 0003 0000 1038	# EV_ABS / ABS_X                1038
+E: 0.000000 0003 0001 0595	# EV_ABS / ABS_Y                595
+E: 0.000000 0003 0018 0031	# EV_ABS / ABS_PRESSURE         31
+E: 0.000000 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.010207 0003 0035 1006	# EV_ABS / ABS_MT_POSITION_X    1006
+E: 0.010207 0003 0036 0501	# EV_ABS / ABS_MT_POSITION_Y    501
+E: 0.010207 0003 0000 1006	# EV_ABS / ABS_X                1006
+E: 0.010207 0003 0001 0501	# EV_ABS / ABS_Y                501
+E: 0.010207 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.020638 0003 0035 0995	# EV_ABS / ABS_MT_POSITION_X    995
+E: 0.020638 0003 0036 0472	# EV_ABS / ABS_MT_POSITION_Y    472
+E: 0.020638 0003 0000 0995	# EV_ABS / ABS_X                995
+E: 0.020638 0003 0001 0472	# EV_ABS / ABS_Y                472
+E: 0.020638 0003 0018 0033	# EV_ABS / ABS_PRESSURE         33
+E: 0.020638 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.031703 0003 0035 0998	# EV_ABS / ABS_MT_POSITION_X    998
+E: 0.031703 0003 0036 0481	# EV_ABS / ABS_MT_POSITION_Y    481
+E: 0.031703 0003 0000 0998	# EV_ABS / ABS_X                998
+E: 0.031703 0003 0001 0481	# EV_ABS / ABS_Y                481
+E: 0.031703 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.040990 0003 0035 0999	# EV_ABS / ABS_MT_POSITION_X    999
+E: 0.040990 0003 0036 0490	# EV_ABS / ABS_MT_POSITION_Y    490
+E: 0.040990 0003 0000 0999	# EV_ABS / ABS_X                999
+E: 0.040990 0003 0001 0490	# EV_ABS / ABS_Y                490
+E: 0.040990 0003 0018 0034	# EV_ABS / ABS_PRESSURE         34
+E: 0.040990 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.051409 0003 0035 1003	# EV_ABS / ABS_MT_POSITION_X    1003
+E: 0.051409 0003 0036 0531	# EV_ABS / ABS_MT_POSITION_Y    531
+E: 0.051409 0003 0000 1003	# EV_ABS / ABS_X                1003
+E: 0.051409 0003 0001 0531	# EV_ABS / ABS_Y                531
+E: 0.051409 0003 0018 0032	# EV_ABS / ABS_PRESSURE         32
+E: 0.051409 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.061267 0003 0035 1010	# EV_ABS / ABS_MT_POSITION_X    1010
+E: 0.061267 0003 0036 0578	# EV_ABS / ABS_MT_POSITION_Y    578
+E: 0.061267 0003 0000 1010	# EV_ABS / ABS_X                1010
+E: 0.061267 0003 0001 0578	# EV_ABS / ABS_Y                578
+E: 0.061267 0003 0018 0022	# EV_ABS / ABS_PRESSURE         22
+E: 0.061267 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.071484 0003 0039 -001	# EV_ABS / ABS_MT_TRACKING_ID   -1
+E: 0.071484 0001 0145 0000	# EV_KEY / BTN_TOOL_FINGER      0
+E: 0.071484 0003 0018 0000	# EV_ABS / ABS_PRESSURE         0
+E: 0.071484 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
