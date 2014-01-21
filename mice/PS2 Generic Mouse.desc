@@ -1,3 +1,19 @@
+# EVEMU 1.2
+# Input device name: "PS/2 Generic Mouse"
+# Input device ID: bus 0x11 vendor 0x02 product 0x01 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#   Event type 1 (EV_KEY)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+# Properties:
 N: PS/2 Generic Mouse
 I: 0011 0002 0001 0000
 B: 00 07 00 00 00 00 00 00 00
