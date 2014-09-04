@@ -1,0 +1,1351 @@
+# EVEMU 1.2
+# Input device name: "Ultrathin Touch Mouse"
+# Input device ID: bus 0x05 vendor 0x46d product 0xb00d version 0x700
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 1 (KEY_ESC)
+#     Event code 2 (KEY_1)
+#     Event code 3 (KEY_2)
+#     Event code 4 (KEY_3)
+#     Event code 5 (KEY_4)
+#     Event code 6 (KEY_5)
+#     Event code 7 (KEY_6)
+#     Event code 8 (KEY_7)
+#     Event code 9 (KEY_8)
+#     Event code 10 (KEY_9)
+#     Event code 11 (KEY_0)
+#     Event code 12 (KEY_MINUS)
+#     Event code 13 (KEY_EQUAL)
+#     Event code 14 (KEY_BACKSPACE)
+#     Event code 15 (KEY_TAB)
+#     Event code 16 (KEY_Q)
+#     Event code 17 (KEY_W)
+#     Event code 18 (KEY_E)
+#     Event code 19 (KEY_R)
+#     Event code 20 (KEY_T)
+#     Event code 21 (KEY_Y)
+#     Event code 22 (KEY_U)
+#     Event code 23 (KEY_I)
+#     Event code 24 (KEY_O)
+#     Event code 25 (KEY_P)
+#     Event code 26 (KEY_LEFTBRACE)
+#     Event code 27 (KEY_RIGHTBRACE)
+#     Event code 28 (KEY_ENTER)
+#     Event code 29 (KEY_LEFTCTRL)
+#     Event code 30 (KEY_A)
+#     Event code 31 (KEY_S)
+#     Event code 32 (KEY_D)
+#     Event code 33 (KEY_F)
+#     Event code 34 (KEY_G)
+#     Event code 35 (KEY_H)
+#     Event code 36 (KEY_J)
+#     Event code 37 (KEY_K)
+#     Event code 38 (KEY_L)
+#     Event code 39 (KEY_SEMICOLON)
+#     Event code 40 (KEY_APOSTROPHE)
+#     Event code 41 (KEY_GRAVE)
+#     Event code 42 (KEY_LEFTSHIFT)
+#     Event code 43 (KEY_BACKSLASH)
+#     Event code 44 (KEY_Z)
+#     Event code 45 (KEY_X)
+#     Event code 46 (KEY_C)
+#     Event code 47 (KEY_V)
+#     Event code 48 (KEY_B)
+#     Event code 49 (KEY_N)
+#     Event code 50 (KEY_M)
+#     Event code 51 (KEY_COMMA)
+#     Event code 52 (KEY_DOT)
+#     Event code 53 (KEY_SLASH)
+#     Event code 54 (KEY_RIGHTSHIFT)
+#     Event code 55 (KEY_KPASTERISK)
+#     Event code 56 (KEY_LEFTALT)
+#     Event code 57 (KEY_SPACE)
+#     Event code 58 (KEY_CAPSLOCK)
+#     Event code 59 (KEY_F1)
+#     Event code 60 (KEY_F2)
+#     Event code 61 (KEY_F3)
+#     Event code 62 (KEY_F4)
+#     Event code 63 (KEY_F5)
+#     Event code 64 (KEY_F6)
+#     Event code 65 (KEY_F7)
+#     Event code 66 (KEY_F8)
+#     Event code 67 (KEY_F9)
+#     Event code 68 (KEY_F10)
+#     Event code 69 (KEY_NUMLOCK)
+#     Event code 70 (KEY_SCROLLLOCK)
+#     Event code 71 (KEY_KP7)
+#     Event code 72 (KEY_KP8)
+#     Event code 73 (KEY_KP9)
+#     Event code 74 (KEY_KPMINUS)
+#     Event code 75 (KEY_KP4)
+#     Event code 76 (KEY_KP5)
+#     Event code 77 (KEY_KP6)
+#     Event code 78 (KEY_KPPLUS)
+#     Event code 79 (KEY_KP1)
+#     Event code 80 (KEY_KP2)
+#     Event code 81 (KEY_KP3)
+#     Event code 82 (KEY_KP0)
+#     Event code 83 (KEY_KPDOT)
+#     Event code 85 (KEY_ZENKAKUHANKAKU)
+#     Event code 86 (KEY_102ND)
+#     Event code 87 (KEY_F11)
+#     Event code 88 (KEY_F12)
+#     Event code 89 (KEY_RO)
+#     Event code 90 (KEY_KATAKANA)
+#     Event code 91 (KEY_HIRAGANA)
+#     Event code 92 (KEY_HENKAN)
+#     Event code 93 (KEY_KATAKANAHIRAGANA)
+#     Event code 94 (KEY_MUHENKAN)
+#     Event code 95 (KEY_KPJPCOMMA)
+#     Event code 96 (KEY_KPENTER)
+#     Event code 97 (KEY_RIGHTCTRL)
+#     Event code 98 (KEY_KPSLASH)
+#     Event code 99 (KEY_SYSRQ)
+#     Event code 100 (KEY_RIGHTALT)
+#     Event code 102 (KEY_HOME)
+#     Event code 103 (KEY_UP)
+#     Event code 104 (KEY_PAGEUP)
+#     Event code 105 (KEY_LEFT)
+#     Event code 106 (KEY_RIGHT)
+#     Event code 107 (KEY_END)
+#     Event code 108 (KEY_DOWN)
+#     Event code 109 (KEY_PAGEDOWN)
+#     Event code 110 (KEY_INSERT)
+#     Event code 111 (KEY_DELETE)
+#     Event code 113 (KEY_MUTE)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 116 (KEY_POWER)
+#     Event code 117 (KEY_KPEQUAL)
+#     Event code 119 (KEY_PAUSE)
+#     Event code 121 (KEY_KPCOMMA)
+#     Event code 122 (KEY_HANGEUL)
+#     Event code 123 (KEY_HANJA)
+#     Event code 124 (KEY_YEN)
+#     Event code 125 (KEY_LEFTMETA)
+#     Event code 126 (KEY_RIGHTMETA)
+#     Event code 127 (KEY_COMPOSE)
+#     Event code 128 (KEY_STOP)
+#     Event code 129 (KEY_AGAIN)
+#     Event code 130 (KEY_PROPS)
+#     Event code 131 (KEY_UNDO)
+#     Event code 132 (KEY_FRONT)
+#     Event code 133 (KEY_COPY)
+#     Event code 134 (KEY_OPEN)
+#     Event code 135 (KEY_PASTE)
+#     Event code 136 (KEY_FIND)
+#     Event code 137 (KEY_CUT)
+#     Event code 138 (KEY_HELP)
+#     Event code 140 (KEY_CALC)
+#     Event code 142 (KEY_SLEEP)
+#     Event code 150 (KEY_WWW)
+#     Event code 152 (KEY_COFFEE)
+#     Event code 158 (KEY_BACK)
+#     Event code 159 (KEY_FORWARD)
+#     Event code 161 (KEY_EJECTCD)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#     Event code 166 (KEY_STOPCD)
+#     Event code 173 (KEY_REFRESH)
+#     Event code 176 (KEY_EDIT)
+#     Event code 177 (KEY_SCROLLUP)
+#     Event code 178 (KEY_SCROLLDOWN)
+#     Event code 179 (KEY_KPLEFTPAREN)
+#     Event code 180 (KEY_KPRIGHTPAREN)
+#     Event code 183 (KEY_F13)
+#     Event code 184 (KEY_F14)
+#     Event code 185 (KEY_F15)
+#     Event code 186 (KEY_F16)
+#     Event code 187 (KEY_F17)
+#     Event code 188 (KEY_F18)
+#     Event code 189 (KEY_F19)
+#     Event code 190 (KEY_F20)
+#     Event code 191 (KEY_F21)
+#     Event code 192 (KEY_F22)
+#     Event code 193 (KEY_F23)
+#     Event code 194 (KEY_F24)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 275 (BTN_SIDE)
+#     Event code 276 (BTN_EXTRA)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+#     Event code 6 (REL_HWHEEL)
+#     Event code 8 (REL_WHEEL)
+#   Event type 3 (EV_ABS)
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max      100
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+#   Event type 17 (EV_LED)
+#     Event code 0 (LED_NUML)
+#     Event code 1 (LED_CAPSL)
+#     Event code 2 (LED_SCROLLL)
+#     Event code 3 (LED_COMPOSE)
+#     Event code 4 (LED_KANA)
+#   Event type 20 (EV_REP)
+#     Event code 0 (REP_DELAY)
+# Properties:
+N: Ultrathin Touch Mouse
+I: 0005 046d b00d 0700
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 fe ff ff ff ff ff ff ff
+B: 01 ff ff ef ff df ff be fe
+B: 01 ff 57 40 c1 7a 20 9f ff
+B: 01 07 00 00 00 00 00 01 00
+B: 01 00 00 1f 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 43 01 00 00 00 00 00 00
+B: 03 00 00 00 00 00 01 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 1f 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 01 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 28 0 100 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000000 0002 0000 0008	# EV_REL / REL_X                8
+E: 0.000000 0002 0001 -013	# EV_REL / REL_Y                -13
+E: 0.000000 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.011366 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.011366 0002 0001 -015	# EV_REL / REL_Y                -15
+E: 0.011366 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.022618 0002 0000 -006	# EV_REL / REL_X                -6
+E: 0.022618 0002 0001 -016	# EV_REL / REL_Y                -16
+E: 0.022618 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.033871 0002 0000 -013	# EV_REL / REL_X                -13
+E: 0.033871 0002 0001 -016	# EV_REL / REL_Y                -16
+E: 0.033871 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.045080 0002 0000 -016	# EV_REL / REL_X                -16
+E: 0.045080 0002 0001 -017	# EV_REL / REL_Y                -17
+E: 0.045080 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.056362 0002 0000 -018	# EV_REL / REL_X                -18
+E: 0.056362 0002 0001 -013	# EV_REL / REL_Y                -13
+E: 0.056362 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.067680 0002 0000 -018	# EV_REL / REL_X                -18
+E: 0.067680 0002 0001 -010	# EV_REL / REL_Y                -10
+E: 0.067680 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.080077 0002 0000 -016	# EV_REL / REL_X                -16
+E: 0.080077 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 0.080077 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.081304 0002 0000 -018	# EV_REL / REL_X                -18
+E: 0.081304 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 0.081304 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.101297 0002 0000 -018	# EV_REL / REL_X                -18
+E: 0.101297 0002 0001 0003	# EV_REL / REL_Y                3
+E: 0.101297 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.112539 0002 0000 -021	# EV_REL / REL_X                -21
+E: 0.112539 0002 0001 0005	# EV_REL / REL_Y                5
+E: 0.112539 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.123777 0002 0000 -021	# EV_REL / REL_X                -21
+E: 0.123777 0002 0001 0009	# EV_REL / REL_Y                9
+E: 0.123777 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.135037 0002 0000 -020	# EV_REL / REL_X                -20
+E: 0.135037 0002 0001 0010	# EV_REL / REL_Y                10
+E: 0.135037 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.146292 0002 0000 -020	# EV_REL / REL_X                -20
+E: 0.146292 0002 0001 0013	# EV_REL / REL_Y                13
+E: 0.146292 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.157623 0002 0000 -018	# EV_REL / REL_X                -18
+E: 0.157623 0002 0001 0016	# EV_REL / REL_Y                16
+E: 0.157623 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.168773 0002 0000 -017	# EV_REL / REL_X                -17
+E: 0.168773 0002 0001 0022	# EV_REL / REL_Y                22
+E: 0.168773 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.180040 0002 0000 -017	# EV_REL / REL_X                -17
+E: 0.180040 0002 0001 0025	# EV_REL / REL_Y                25
+E: 0.180040 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.191303 0002 0000 -014	# EV_REL / REL_X                -14
+E: 0.191303 0002 0001 0026	# EV_REL / REL_Y                26
+E: 0.191303 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.202530 0002 0000 -010	# EV_REL / REL_X                -10
+E: 0.202530 0002 0001 0024	# EV_REL / REL_Y                24
+E: 0.202530 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.213775 0002 0000 -006	# EV_REL / REL_X                -6
+E: 0.213775 0002 0001 0022	# EV_REL / REL_Y                22
+E: 0.213775 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.225034 0002 0000 0001	# EV_REL / REL_X                1
+E: 0.225034 0002 0001 0017	# EV_REL / REL_Y                17
+E: 0.225034 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.236284 0002 0000 0009	# EV_REL / REL_X                9
+E: 0.236284 0002 0001 0012	# EV_REL / REL_Y                12
+E: 0.236284 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.247514 0002 0000 0015	# EV_REL / REL_X                15
+E: 0.247514 0002 0001 0010	# EV_REL / REL_Y                10
+E: 0.247514 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.258734 0002 0000 0025	# EV_REL / REL_X                25
+E: 0.258734 0002 0001 0004	# EV_REL / REL_Y                4
+E: 0.258734 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.270000 0002 0000 0028	# EV_REL / REL_X                28
+E: 0.270000 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 0.270000 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.281258 0002 0000 0035	# EV_REL / REL_X                35
+E: 0.281258 0002 0001 -013	# EV_REL / REL_Y                -13
+E: 0.281258 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.292423 0002 0000 0027	# EV_REL / REL_X                27
+E: 0.292423 0002 0001 -018	# EV_REL / REL_Y                -18
+E: 0.292423 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.303797 0002 0000 0026	# EV_REL / REL_X                26
+E: 0.303797 0002 0001 -023	# EV_REL / REL_Y                -23
+E: 0.303797 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.315027 0002 0000 0024	# EV_REL / REL_X                24
+E: 0.315027 0002 0001 -026	# EV_REL / REL_Y                -26
+E: 0.315027 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.326284 0002 0000 0018	# EV_REL / REL_X                18
+E: 0.326284 0002 0001 -024	# EV_REL / REL_Y                -24
+E: 0.326284 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.337617 0002 0000 0010	# EV_REL / REL_X                10
+E: 0.337617 0002 0001 -024	# EV_REL / REL_Y                -24
+E: 0.337617 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.348797 0002 0000 0002	# EV_REL / REL_X                2
+E: 0.348797 0002 0001 -022	# EV_REL / REL_Y                -22
+E: 0.348797 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.360036 0002 0000 -002	# EV_REL / REL_X                -2
+E: 0.360036 0002 0001 -019	# EV_REL / REL_Y                -19
+E: 0.360036 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.371295 0002 0000 -005	# EV_REL / REL_X                -5
+E: 0.371295 0002 0001 -022	# EV_REL / REL_Y                -22
+E: 0.371295 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.382527 0002 0000 -014	# EV_REL / REL_X                -14
+E: 0.382527 0002 0001 -021	# EV_REL / REL_Y                -21
+E: 0.382527 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.393715 0002 0000 -021	# EV_REL / REL_X                -21
+E: 0.393715 0002 0001 -017	# EV_REL / REL_Y                -17
+E: 0.393715 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.404941 0002 0000 -029	# EV_REL / REL_X                -29
+E: 0.404941 0002 0001 -008	# EV_REL / REL_Y                -8
+E: 0.404941 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.416283 0002 0000 -036	# EV_REL / REL_X                -36
+E: 0.416283 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 0.416283 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.427627 0002 0000 -034	# EV_REL / REL_X                -34
+E: 0.427627 0002 0001 0002	# EV_REL / REL_Y                2
+E: 0.427627 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.438796 0002 0000 -032	# EV_REL / REL_X                -32
+E: 0.438796 0002 0001 0005	# EV_REL / REL_Y                5
+E: 0.438796 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.450032 0002 0000 -027	# EV_REL / REL_X                -27
+E: 0.450032 0002 0001 0009	# EV_REL / REL_Y                9
+E: 0.450032 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.461295 0002 0000 -025	# EV_REL / REL_X                -25
+E: 0.461295 0002 0001 0014	# EV_REL / REL_Y                14
+E: 0.461295 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.472526 0002 0000 -022	# EV_REL / REL_X                -22
+E: 0.472526 0002 0001 0017	# EV_REL / REL_Y                17
+E: 0.472526 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.483798 0002 0000 -016	# EV_REL / REL_X                -16
+E: 0.483798 0002 0001 0020	# EV_REL / REL_Y                20
+E: 0.483798 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.494923 0002 0000 -012	# EV_REL / REL_X                -12
+E: 0.494923 0002 0001 0022	# EV_REL / REL_Y                22
+E: 0.494923 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.506158 0002 0000 -008	# EV_REL / REL_X                -8
+E: 0.506158 0002 0001 0022	# EV_REL / REL_Y                22
+E: 0.506158 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.517613 0002 0000 -003	# EV_REL / REL_X                -3
+E: 0.517613 0002 0001 0020	# EV_REL / REL_Y                20
+E: 0.517613 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.528801 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.528801 0002 0001 0017	# EV_REL / REL_Y                17
+E: 0.528801 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.540036 0002 0000 0010	# EV_REL / REL_X                10
+E: 0.540036 0002 0001 0013	# EV_REL / REL_Y                13
+E: 0.540036 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.551293 0002 0000 0015	# EV_REL / REL_X                15
+E: 0.551293 0002 0001 0009	# EV_REL / REL_Y                9
+E: 0.551293 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.562532 0002 0000 0022	# EV_REL / REL_X                22
+E: 0.562532 0002 0001 0006	# EV_REL / REL_Y                6
+E: 0.562532 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.573732 0002 0000 0024	# EV_REL / REL_X                24
+E: 0.573732 0002 0001 0003	# EV_REL / REL_Y                3
+E: 0.573732 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.584989 0002 0000 0021	# EV_REL / REL_X                21
+E: 0.584989 0002 0001 -005	# EV_REL / REL_Y                -5
+E: 0.584989 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.596199 0002 0000 0021	# EV_REL / REL_X                21
+E: 0.596199 0002 0001 -010	# EV_REL / REL_Y                -10
+E: 0.596199 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.607581 0002 0000 0016	# EV_REL / REL_X                16
+E: 0.607581 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 0.607581 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.618757 0002 0000 0012	# EV_REL / REL_X                12
+E: 0.618757 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 0.618757 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.630001 0002 0000 0011	# EV_REL / REL_X                11
+E: 0.630001 0002 0001 -014	# EV_REL / REL_Y                -14
+E: 0.630001 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.641258 0002 0000 0005	# EV_REL / REL_X                5
+E: 0.641258 0002 0001 -015	# EV_REL / REL_Y                -15
+E: 0.641258 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.652487 0002 0000 0001	# EV_REL / REL_X                1
+E: 0.652487 0002 0001 -015	# EV_REL / REL_Y                -15
+E: 0.652487 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.663763 0002 0000 -006	# EV_REL / REL_X                -6
+E: 0.663763 0002 0001 -014	# EV_REL / REL_Y                -14
+E: 0.663763 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.675008 0002 0000 -011	# EV_REL / REL_X                -11
+E: 0.675008 0002 0001 -014	# EV_REL / REL_Y                -14
+E: 0.675008 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.686244 0002 0000 -013	# EV_REL / REL_X                -13
+E: 0.686244 0002 0001 -010	# EV_REL / REL_Y                -10
+E: 0.686244 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.697549 0002 0000 -015	# EV_REL / REL_X                -15
+E: 0.697549 0002 0001 -009	# EV_REL / REL_Y                -9
+E: 0.697549 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.708758 0002 0000 -014	# EV_REL / REL_X                -14
+E: 0.708758 0002 0001 -006	# EV_REL / REL_Y                -6
+E: 0.708758 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.719992 0002 0000 -011	# EV_REL / REL_X                -11
+E: 0.719992 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 0.719992 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.731252 0002 0000 -005	# EV_REL / REL_X                -5
+E: 0.731252 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 0.731252 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.753753 0002 0001 0004	# EV_REL / REL_Y                4
+E: 0.753753 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.764997 0002 0001 0006	# EV_REL / REL_Y                6
+E: 0.764997 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.776259 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.776259 0002 0001 0006	# EV_REL / REL_Y                6
+E: 0.776259 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.787572 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.787572 0002 0001 0007	# EV_REL / REL_Y                7
+E: 0.787572 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.798730 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.798730 0002 0001 0004	# EV_REL / REL_Y                4
+E: 0.798730 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.810048 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.810048 0002 0001 0004	# EV_REL / REL_Y                4
+E: 0.810048 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.822629 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.822629 0002 0001 0003	# EV_REL / REL_Y                3
+E: 0.822629 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.823812 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.823812 0002 0001 0003	# EV_REL / REL_Y                3
+E: 0.823812 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.843807 0002 0000 0003	# EV_REL / REL_X                3
+E: 0.843807 0002 0001 0002	# EV_REL / REL_Y                2
+E: 0.843807 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.855036 0002 0000 0002	# EV_REL / REL_X                2
+E: 0.855036 0002 0001 0001	# EV_REL / REL_Y                1
+E: 0.855036 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.866291 0002 0000 0001	# EV_REL / REL_X                1
+E: 0.866291 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.068833 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 1.068833 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.091331 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 1.091331 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.102530 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 1.102530 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.113731 0002 0000 0001	# EV_REL / REL_X                1
+E: 1.113731 0002 0008 0002	# EV_REL / REL_WHEEL            2
+E: 1.113731 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.124963 0002 0000 -005	# EV_REL / REL_X                -5
+E: 1.124963 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 1.124963 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 1.124963 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.136251 0002 0000 -006	# EV_REL / REL_X                -6
+E: 1.136251 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 1.136251 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 1.136251 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.147533 0002 0000 -004	# EV_REL / REL_X                -4
+E: 1.147533 0002 0001 -005	# EV_REL / REL_Y                -5
+E: 1.147533 0002 0008 0002	# EV_REL / REL_WHEEL            2
+E: 1.147533 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.158697 0002 0000 -005	# EV_REL / REL_X                -5
+E: 1.158697 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 1.158697 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.170067 0002 0000 -005	# EV_REL / REL_X                -5
+E: 1.170067 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 1.170067 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.181205 0002 0000 -003	# EV_REL / REL_X                -3
+E: 1.181205 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 1.181205 0002 0008 0003	# EV_REL / REL_WHEEL            3
+E: 1.181205 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.192497 0002 0000 -003	# EV_REL / REL_X                -3
+E: 1.192497 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 1.192497 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.203755 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.203755 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 1.203755 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.282606 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.282606 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.305040 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.305040 0002 0001 0001	# EV_REL / REL_Y                1
+E: 1.305040 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.316203 0002 0000 -002	# EV_REL / REL_X                -2
+E: 1.316203 0002 0001 0005	# EV_REL / REL_Y                5
+E: 1.316203 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.327490 0002 0000 -002	# EV_REL / REL_X                -2
+E: 1.327490 0002 0001 0004	# EV_REL / REL_Y                4
+E: 1.327490 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.338684 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.338684 0002 0001 0004	# EV_REL / REL_Y                4
+E: 1.338684 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.350048 0002 0000 -002	# EV_REL / REL_X                -2
+E: 1.350048 0002 0001 0004	# EV_REL / REL_Y                4
+E: 1.350048 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.350048 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.361201 0002 0000 -002	# EV_REL / REL_X                -2
+E: 1.361201 0002 0001 0005	# EV_REL / REL_Y                5
+E: 1.361201 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.372509 0002 0000 -002	# EV_REL / REL_X                -2
+E: 1.372509 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.372509 0002 0008 -002	# EV_REL / REL_WHEEL            -2
+E: 1.372509 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.383686 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.383686 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.383686 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.383686 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.394933 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.394933 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.406220 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.406220 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.406220 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.417527 0002 0000 -001	# EV_REL / REL_X                -1
+E: 1.417527 0002 0001 0002	# EV_REL / REL_Y                2
+E: 1.417527 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.428755 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.428755 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.428755 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.439959 0002 0001 0003	# EV_REL / REL_Y                3
+E: 1.439959 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.439959 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.462478 0002 0001 0001	# EV_REL / REL_Y                1
+E: 1.462478 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.462478 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.473692 0002 0001 0001	# EV_REL / REL_Y                1
+E: 1.473692 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.710026 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 1.710026 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.856381 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 1.856381 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.867678 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 1.867678 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.878887 0002 0000 0001	# EV_REL / REL_X                1
+E: 1.878887 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 1.878887 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.890114 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 1.890114 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.901370 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 1.901370 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.923875 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 1.923875 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.216358 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.216358 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.227617 0002 0000 -001	# EV_REL / REL_X                -1
+E: 2.227617 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.227617 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.238766 0002 0000 -003	# EV_REL / REL_X                -3
+E: 2.238766 0002 0001 0004	# EV_REL / REL_Y                4
+E: 2.238766 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.250034 0002 0000 -002	# EV_REL / REL_X                -2
+E: 2.250034 0002 0001 0003	# EV_REL / REL_Y                3
+E: 2.250034 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.261260 0002 0000 -002	# EV_REL / REL_X                -2
+E: 2.261260 0002 0001 0005	# EV_REL / REL_Y                5
+E: 2.261260 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.272476 0002 0000 -002	# EV_REL / REL_X                -2
+E: 2.272476 0002 0001 0007	# EV_REL / REL_Y                7
+E: 2.272476 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.283830 0002 0000 -003	# EV_REL / REL_X                -3
+E: 2.283830 0002 0001 0008	# EV_REL / REL_Y                8
+E: 2.283830 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.295091 0002 0000 -002	# EV_REL / REL_X                -2
+E: 2.295091 0002 0001 0009	# EV_REL / REL_Y                9
+E: 2.295091 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.306334 0002 0000 -002	# EV_REL / REL_X                -2
+E: 2.306334 0002 0001 0010	# EV_REL / REL_Y                10
+E: 2.306334 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.317672 0002 0000 -003	# EV_REL / REL_X                -3
+E: 2.317672 0002 0001 0009	# EV_REL / REL_Y                9
+E: 2.317672 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.328853 0002 0001 0010	# EV_REL / REL_Y                10
+E: 2.328853 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.339981 0002 0001 0009	# EV_REL / REL_Y                9
+E: 2.339981 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.351311 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.351311 0002 0001 0006	# EV_REL / REL_Y                6
+E: 2.351311 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.362589 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.362589 0002 0001 0005	# EV_REL / REL_Y                5
+E: 2.362589 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.373799 0002 0000 0002	# EV_REL / REL_X                2
+E: 2.373799 0002 0001 0002	# EV_REL / REL_Y                2
+E: 2.373799 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.385043 0002 0000 0001	# EV_REL / REL_X                1
+E: 2.385043 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.385043 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.407589 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.407589 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 2.407589 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.418796 0002 0000 0008	# EV_REL / REL_X                8
+E: 2.418796 0002 0001 -006	# EV_REL / REL_Y                -6
+E: 2.418796 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.430036 0002 0000 0009	# EV_REL / REL_X                9
+E: 2.430036 0002 0001 -009	# EV_REL / REL_Y                -9
+E: 2.430036 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.441256 0002 0000 0009	# EV_REL / REL_X                9
+E: 2.441256 0002 0001 -011	# EV_REL / REL_Y                -11
+E: 2.441256 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.452587 0002 0000 0009	# EV_REL / REL_X                9
+E: 2.452587 0002 0001 -017	# EV_REL / REL_Y                -17
+E: 2.452587 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.463797 0002 0000 0007	# EV_REL / REL_X                7
+E: 2.463797 0002 0001 -018	# EV_REL / REL_Y                -18
+E: 2.463797 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.475045 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.475045 0002 0001 -019	# EV_REL / REL_Y                -19
+E: 2.475045 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.486291 0002 0001 -016	# EV_REL / REL_Y                -16
+E: 2.486291 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.497589 0002 0000 -003	# EV_REL / REL_X                -3
+E: 2.497589 0002 0001 -016	# EV_REL / REL_Y                -16
+E: 2.497589 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.508795 0002 0000 -007	# EV_REL / REL_X                -7
+E: 2.508795 0002 0001 -015	# EV_REL / REL_Y                -15
+E: 2.508795 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.520032 0002 0000 -009	# EV_REL / REL_X                -9
+E: 2.520032 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 2.520032 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.531291 0002 0000 -010	# EV_REL / REL_X                -10
+E: 2.531291 0002 0001 -009	# EV_REL / REL_Y                -9
+E: 2.531291 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.542524 0002 0000 -010	# EV_REL / REL_X                -10
+E: 2.542524 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 2.542524 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.553876 0002 0000 -012	# EV_REL / REL_X                -12
+E: 2.553876 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 2.553876 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.565128 0002 0000 -011	# EV_REL / REL_X                -11
+E: 2.565128 0002 0001 0002	# EV_REL / REL_Y                2
+E: 2.565128 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.576350 0002 0000 -007	# EV_REL / REL_X                -7
+E: 2.576350 0002 0001 0003	# EV_REL / REL_Y                3
+E: 2.576350 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.587636 0002 0000 -005	# EV_REL / REL_X                -5
+E: 2.587636 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.587636 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.598835 0002 0000 -003	# EV_REL / REL_X                -3
+E: 2.598835 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.598835 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.655085 0002 0001 0001	# EV_REL / REL_Y                1
+E: 2.655085 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.733791 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 2.733791 0001 0110 0001	# EV_KEY / BTN_LEFT             1
+E: 2.733791 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.868789 0002 0000 0001	# EV_REL / REL_X                1
+E: 2.868789 0002 0001 0003	# EV_REL / REL_Y                3
+E: 2.868789 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.880055 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.880055 0002 0001 0006	# EV_REL / REL_Y                6
+E: 2.880055 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.891214 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.891214 0002 0001 0008	# EV_REL / REL_Y                8
+E: 2.891214 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.902469 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.902469 0002 0001 0009	# EV_REL / REL_Y                9
+E: 2.902469 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.913792 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.913792 0002 0001 0010	# EV_REL / REL_Y                10
+E: 2.913792 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.924944 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.924944 0002 0001 0011	# EV_REL / REL_Y                11
+E: 2.924944 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.936233 0002 0000 0005	# EV_REL / REL_X                5
+E: 2.936233 0002 0001 0010	# EV_REL / REL_Y                10
+E: 2.936233 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.947480 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.947480 0002 0001 0010	# EV_REL / REL_Y                10
+E: 2.947480 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.958684 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.958684 0002 0001 0008	# EV_REL / REL_Y                8
+E: 2.958684 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.969956 0002 0000 0004	# EV_REL / REL_X                4
+E: 2.969956 0002 0001 0009	# EV_REL / REL_Y                9
+E: 2.969956 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.981200 0002 0000 0002	# EV_REL / REL_X                2
+E: 2.981200 0002 0001 0008	# EV_REL / REL_Y                8
+E: 2.981200 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.983705 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 2.983705 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 2.992492 0002 0000 0003	# EV_REL / REL_X                3
+E: 2.992492 0002 0001 0008	# EV_REL / REL_Y                8
+E: 2.992492 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.003735 0002 0000 0002	# EV_REL / REL_X                2
+E: 3.003735 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.003735 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.014948 0002 0000 0002	# EV_REL / REL_X                2
+E: 3.014948 0002 0001 0005	# EV_REL / REL_Y                5
+E: 3.014948 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.016702 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.016702 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.026285 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.026285 0002 0001 0004	# EV_REL / REL_Y                4
+E: 3.026285 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.037477 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.037477 0002 0001 0002	# EV_REL / REL_Y                2
+E: 3.037477 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.048672 0002 0001 0002	# EV_REL / REL_Y                2
+E: 3.048672 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.049716 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.049716 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.082747 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.082747 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.115768 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.115768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.148767 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.148767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.181768 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.181768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.214768 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.214768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.247769 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 3.247769 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.273750 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 3.273750 0001 0110 0000	# EV_KEY / BTN_LEFT             0
+E: 3.273750 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.330018 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.330018 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.363843 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 3.363843 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.386305 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.386305 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 3.386305 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.397588 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 3.397588 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.408798 0002 0001 -008	# EV_REL / REL_Y                -8
+E: 3.408798 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.420059 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.420059 0002 0001 -010	# EV_REL / REL_Y                -10
+E: 3.420059 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.431291 0002 0000 0002	# EV_REL / REL_X                2
+E: 3.431291 0002 0001 -011	# EV_REL / REL_Y                -11
+E: 3.431291 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.442560 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.442560 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 3.442560 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.453736 0002 0000 0002	# EV_REL / REL_X                2
+E: 3.453736 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 3.453736 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.465011 0002 0000 0002	# EV_REL / REL_X                2
+E: 3.465011 0002 0001 -013	# EV_REL / REL_Y                -13
+E: 3.465011 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.476271 0002 0000 0001	# EV_REL / REL_X                1
+E: 3.476271 0002 0001 -014	# EV_REL / REL_Y                -14
+E: 3.476271 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.487538 0002 0001 -015	# EV_REL / REL_Y                -15
+E: 3.487538 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.498745 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.498745 0002 0001 -014	# EV_REL / REL_Y                -14
+E: 3.498745 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.510009 0002 0000 -003	# EV_REL / REL_X                -3
+E: 3.510009 0002 0001 -011	# EV_REL / REL_Y                -11
+E: 3.510009 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.521267 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.521267 0002 0001 -010	# EV_REL / REL_Y                -10
+E: 3.521267 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.532600 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.532600 0002 0001 -007	# EV_REL / REL_Y                -7
+E: 3.532600 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.543835 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.543835 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 3.543835 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.554997 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 3.554997 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.600103 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.600103 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.633848 0004 0004 589826	# EV_MSC / MSC_SCAN             589826
+E: 3.633848 0001 0111 0001	# EV_KEY / BTN_RIGHT            1
+E: 3.633848 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.757605 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.757605 0002 0001 0001	# EV_REL / REL_Y                1
+E: 3.757605 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.813745 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.813745 0002 0001 0005	# EV_REL / REL_Y                5
+E: 3.813745 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.825004 0002 0000 -003	# EV_REL / REL_X                -3
+E: 3.825004 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.825004 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.836238 0002 0000 -003	# EV_REL / REL_X                -3
+E: 3.836238 0002 0001 0007	# EV_REL / REL_Y                7
+E: 3.836238 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.847531 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.847531 0002 0001 0007	# EV_REL / REL_Y                7
+E: 3.847531 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.858742 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.858742 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.858742 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.870004 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.870004 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.870004 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.881239 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.881239 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.881239 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.883766 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 3.883766 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.892468 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.892468 0002 0001 0007	# EV_REL / REL_Y                7
+E: 3.892468 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.903691 0002 0000 -002	# EV_REL / REL_X                -2
+E: 3.903691 0002 0001 0006	# EV_REL / REL_Y                6
+E: 3.903691 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.915015 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.915015 0002 0001 0004	# EV_REL / REL_Y                4
+E: 3.915015 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.916771 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 3.916771 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.926255 0002 0000 -001	# EV_REL / REL_X                -1
+E: 3.926255 0002 0001 0003	# EV_REL / REL_Y                3
+E: 3.926255 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.937541 0002 0001 0001	# EV_REL / REL_Y                1
+E: 3.937541 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 3.949767 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 3.949767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 3.982771 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 3.982771 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.015767 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.015767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.038743 0002 0000 -010	# EV_REL / REL_X                -10
+E: 4.038743 0002 0001 0002	# EV_REL / REL_Y                2
+E: 4.038743 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.048767 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.048767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.050002 0002 0000 -017	# EV_REL / REL_X                -17
+E: 4.050002 0002 0001 0005	# EV_REL / REL_Y                5
+E: 4.050002 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.061265 0002 0000 -017	# EV_REL / REL_X                -17
+E: 4.061265 0002 0001 0007	# EV_REL / REL_Y                7
+E: 4.061265 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.072534 0002 0000 -014	# EV_REL / REL_X                -14
+E: 4.072534 0002 0001 0007	# EV_REL / REL_Y                7
+E: 4.072534 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.081768 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.081768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.083739 0002 0000 -010	# EV_REL / REL_X                -10
+E: 4.083739 0002 0001 0006	# EV_REL / REL_Y                6
+E: 4.083739 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.094940 0002 0000 -008	# EV_REL / REL_X                -8
+E: 4.094940 0002 0001 0004	# EV_REL / REL_Y                4
+E: 4.094940 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.106201 0002 0000 -004	# EV_REL / REL_X                -4
+E: 4.106201 0002 0001 0003	# EV_REL / REL_Y                3
+E: 4.106201 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.114768 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.114768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.117441 0002 0000 -001	# EV_REL / REL_X                -1
+E: 4.117441 0002 0001 0001	# EV_REL / REL_Y                1
+E: 4.117441 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.147724 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.147724 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.180767 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.180767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.213768 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.213768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.246767 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.246767 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.279770 0001 0111 0002	# EV_KEY / BTN_RIGHT            2
+E: 4.279770 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 4.286256 0002 0000 0001	# EV_REL / REL_X                1
+E: 4.286256 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.308760 0004 0004 589826	# EV_MSC / MSC_SCAN             589826
+E: 4.308760 0001 0111 0000	# EV_KEY / BTN_RIGHT            0
+E: 4.308760 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.432525 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 4.432525 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.499996 0002 0000 0002	# EV_REL / REL_X                2
+E: 4.499996 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.499996 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.511257 0002 0000 0002	# EV_REL / REL_X                2
+E: 4.511257 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.511257 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.522475 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.522475 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.533681 0002 0000 0001	# EV_REL / REL_X                1
+E: 4.533681 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.533681 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.545001 0002 0000 -001	# EV_REL / REL_X                -1
+E: 4.545001 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 4.545001 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.556264 0002 0000 -003	# EV_REL / REL_X                -3
+E: 4.556264 0002 0001 -005	# EV_REL / REL_Y                -5
+E: 4.556264 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.567522 0002 0000 -003	# EV_REL / REL_X                -3
+E: 4.567522 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 4.567522 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.578764 0002 0000 -003	# EV_REL / REL_X                -3
+E: 4.578764 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.578764 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.590002 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.590002 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 4.590002 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.601248 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.601248 0002 0001 -004	# EV_REL / REL_Y                -4
+E: 4.601248 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.612532 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.612532 0002 0001 -006	# EV_REL / REL_Y                -6
+E: 4.612532 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.623740 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.623740 0002 0001 -005	# EV_REL / REL_Y                -5
+E: 4.623740 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.634993 0002 0000 -001	# EV_REL / REL_X                -1
+E: 4.634993 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 4.634993 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.646264 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 4.646264 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.657525 0002 0000 -001	# EV_REL / REL_X                -1
+E: 4.657525 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 4.657525 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.668755 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.668755 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 4.668755 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.679996 0002 0000 -002	# EV_REL / REL_X                -2
+E: 4.679996 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 4.679996 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.691251 0002 0000 -001	# EV_REL / REL_X                -1
+E: 4.691251 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 4.691251 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.837582 0002 0000 0001	# EV_REL / REL_X                1
+E: 4.837582 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.848815 0002 0000 0001	# EV_REL / REL_X                1
+E: 4.848815 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.950053 0004 0004 589826	# EV_MSC / MSC_SCAN             589826
+E: 4.950053 0001 0111 0001	# EV_KEY / BTN_RIGHT            1
+E: 4.950053 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.175074 0004 0004 589826	# EV_MSC / MSC_SCAN             589826
+E: 5.175074 0001 0111 0000	# EV_KEY / BTN_RIGHT            0
+E: 5.175074 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.399981 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.399981 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.399981 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.422586 0002 0000 -003	# EV_REL / REL_X                -3
+E: 5.422586 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 5.422586 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.433807 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.433807 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 5.433807 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.445079 0002 0000 -002	# EV_REL / REL_X                -2
+E: 5.445079 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 5.445079 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.456317 0002 0000 -002	# EV_REL / REL_X                -2
+E: 5.456317 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.456317 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.467563 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.467563 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.467563 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.546327 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.546327 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.557582 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.557582 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.557582 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.568815 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.568815 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.580076 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.580076 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.591193 0002 0000 -002	# EV_REL / REL_X                -2
+E: 5.591193 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.602588 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 5.602588 0001 0110 0001	# EV_KEY / BTN_LEFT             1
+E: 5.602588 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.760091 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 5.760091 0001 0110 0000	# EV_KEY / BTN_LEFT             0
+E: 5.760091 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.805098 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.805098 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.838836 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.838836 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.861260 0002 0000 -002	# EV_REL / REL_X                -2
+E: 5.861260 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.872553 0002 0000 -003	# EV_REL / REL_X                -3
+E: 5.872553 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.872553 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.883803 0002 0000 -005	# EV_REL / REL_X                -5
+E: 5.883803 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 5.883803 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.895077 0002 0000 -006	# EV_REL / REL_X                -6
+E: 5.895077 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 5.895077 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.906329 0002 0000 -005	# EV_REL / REL_X                -5
+E: 5.906329 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.906329 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.917566 0002 0000 -004	# EV_REL / REL_X                -4
+E: 5.917566 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.928802 0002 0000 -004	# EV_REL / REL_X                -4
+E: 5.928802 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 5.928802 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.940058 0002 0000 -003	# EV_REL / REL_X                -3
+E: 5.940058 0002 0001 0001	# EV_REL / REL_Y                1
+E: 5.940058 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.951294 0002 0000 -002	# EV_REL / REL_X                -2
+E: 5.951294 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 5.962549 0002 0000 -001	# EV_REL / REL_X                -1
+E: 5.962549 0002 0001 0001	# EV_REL / REL_Y                1
+E: 5.962549 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.108763 0002 0000 0001	# EV_REL / REL_X                1
+E: 6.108763 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 6.108763 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.119996 0002 0001 -009	# EV_REL / REL_Y                -9
+E: 6.119996 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.131249 0002 0001 -011	# EV_REL / REL_Y                -11
+E: 6.131249 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.142503 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 6.142503 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.153763 0002 0000 -003	# EV_REL / REL_X                -3
+E: 6.153763 0002 0001 -012	# EV_REL / REL_Y                -12
+E: 6.153763 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.165002 0002 0000 -005	# EV_REL / REL_X                -5
+E: 6.165002 0002 0001 -017	# EV_REL / REL_Y                -17
+E: 6.165002 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.176195 0002 0000 -007	# EV_REL / REL_X                -7
+E: 6.176195 0002 0001 -013	# EV_REL / REL_Y                -13
+E: 6.176195 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.187523 0002 0000 -006	# EV_REL / REL_X                -6
+E: 6.187523 0002 0001 -011	# EV_REL / REL_Y                -11
+E: 6.187523 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.198776 0002 0000 -003	# EV_REL / REL_X                -3
+E: 6.198776 0002 0001 -009	# EV_REL / REL_Y                -9
+E: 6.198776 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.210030 0002 0000 -002	# EV_REL / REL_X                -2
+E: 6.210030 0002 0001 -003	# EV_REL / REL_Y                -3
+E: 6.210030 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.221263 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 6.221263 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.243834 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 6.243834 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.345047 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 6.345047 0001 0110 0001	# EV_KEY / BTN_LEFT             1
+E: 6.345047 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.435055 0002 0000 -001	# EV_REL / REL_X                -1
+E: 6.435055 0002 0001 0001	# EV_REL / REL_Y                1
+E: 6.435055 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.457556 0002 0001 0001	# EV_REL / REL_Y                1
+E: 6.457556 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.480075 0002 0000 0001	# EV_REL / REL_X                1
+E: 6.480075 0002 0001 0006	# EV_REL / REL_Y                6
+E: 6.480075 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.491304 0002 0000 0002	# EV_REL / REL_X                2
+E: 6.491304 0002 0001 0007	# EV_REL / REL_Y                7
+E: 6.491304 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.502474 0002 0000 0002	# EV_REL / REL_X                2
+E: 6.502474 0002 0001 0010	# EV_REL / REL_Y                10
+E: 6.502474 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.513730 0002 0000 0003	# EV_REL / REL_X                3
+E: 6.513730 0002 0001 0012	# EV_REL / REL_Y                12
+E: 6.513730 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.525074 0002 0000 0002	# EV_REL / REL_X                2
+E: 6.525074 0002 0001 0012	# EV_REL / REL_Y                12
+E: 6.525074 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.536226 0002 0000 0002	# EV_REL / REL_X                2
+E: 6.536226 0002 0001 0011	# EV_REL / REL_Y                11
+E: 6.536226 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.547477 0002 0001 0009	# EV_REL / REL_Y                9
+E: 6.547477 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.558743 0002 0001 0007	# EV_REL / REL_Y                7
+E: 6.558743 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.569952 0002 0001 0007	# EV_REL / REL_Y                7
+E: 6.569952 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.581170 0002 0000 0001	# EV_REL / REL_X                1
+E: 6.581170 0002 0001 0006	# EV_REL / REL_Y                6
+E: 6.581170 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.592430 0002 0001 0004	# EV_REL / REL_Y                4
+E: 6.592430 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.594719 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.594719 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.603718 0002 0000 -001	# EV_REL / REL_X                -1
+E: 6.603718 0002 0001 0004	# EV_REL / REL_Y                4
+E: 6.603718 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.615105 0002 0001 0003	# EV_REL / REL_Y                3
+E: 6.615105 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.626289 0002 0001 0002	# EV_REL / REL_Y                2
+E: 6.626289 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.627730 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.627730 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.637433 0002 0000 -001	# EV_REL / REL_X                -1
+E: 6.637433 0002 0001 0002	# EV_REL / REL_Y                2
+E: 6.637433 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.660737 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.660737 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.693725 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.693725 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.726768 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.726768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.759744 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.759744 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.792768 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.792768 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.825769 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.825769 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.858765 0001 0110 0002	# EV_KEY / BTN_LEFT             2
+E: 6.858765 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
+E: 6.873789 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 6.873789 0001 0110 0000	# EV_KEY / BTN_LEFT             0
+E: 6.873789 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.896293 0002 0000 0001	# EV_REL / REL_X                1
+E: 6.896293 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 6.896293 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.020080 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.020080 0002 0001 0001	# EV_REL / REL_Y                1
+E: 7.020080 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.031312 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.031312 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.042597 0002 0000 0005	# EV_REL / REL_X                5
+E: 7.042597 0002 0001 0003	# EV_REL / REL_Y                3
+E: 7.042597 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.053687 0002 0000 0007	# EV_REL / REL_X                7
+E: 7.053687 0002 0001 0004	# EV_REL / REL_Y                4
+E: 7.053687 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.065050 0002 0000 0007	# EV_REL / REL_X                7
+E: 7.065050 0002 0001 0003	# EV_REL / REL_Y                3
+E: 7.065050 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.076283 0002 0000 0007	# EV_REL / REL_X                7
+E: 7.076283 0002 0001 0005	# EV_REL / REL_Y                5
+E: 7.076283 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.087552 0002 0000 0007	# EV_REL / REL_X                7
+E: 7.087552 0002 0001 0006	# EV_REL / REL_Y                6
+E: 7.087552 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.098806 0002 0000 0007	# EV_REL / REL_X                7
+E: 7.098806 0002 0001 0006	# EV_REL / REL_Y                6
+E: 7.098806 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.110029 0002 0000 0006	# EV_REL / REL_X                6
+E: 7.110029 0002 0001 0006	# EV_REL / REL_Y                6
+E: 7.110029 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.121318 0002 0000 0005	# EV_REL / REL_X                5
+E: 7.121318 0002 0001 0004	# EV_REL / REL_Y                4
+E: 7.121318 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.132571 0002 0000 0003	# EV_REL / REL_X                3
+E: 7.132571 0002 0001 0003	# EV_REL / REL_Y                3
+E: 7.132571 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.143810 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.143810 0002 0001 0002	# EV_REL / REL_Y                2
+E: 7.143810 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.368752 0002 0000 -001	# EV_REL / REL_X                -1
+E: 7.368752 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 7.368752 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.380039 0002 0000 -001	# EV_REL / REL_X                -1
+E: 7.380039 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 7.380039 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 7.380039 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.391303 0002 0000 -002	# EV_REL / REL_X                -2
+E: 7.391303 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 7.391303 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 7.391303 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.402548 0002 0000 -003	# EV_REL / REL_X                -3
+E: 7.402548 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.413686 0002 0000 -004	# EV_REL / REL_X                -4
+E: 7.413686 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 7.413686 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.424947 0002 0000 -003	# EV_REL / REL_X                -3
+E: 7.424947 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 7.424947 0002 0008 0001	# EV_REL / REL_WHEEL            1
+E: 7.424947 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.436303 0002 0000 -003	# EV_REL / REL_X                -3
+E: 7.436303 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 7.436303 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.447453 0002 0000 -002	# EV_REL / REL_X                -2
+E: 7.447453 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.458712 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 7.458712 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.627554 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.627554 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.638787 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.638787 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.649948 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.649948 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.661193 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.661193 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.672415 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.672415 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.694936 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.694936 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.706305 0002 0008 -002	# EV_REL / REL_WHEEL            -2
+E: 7.706305 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.717416 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.717416 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.728812 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.728812 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.740043 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.740043 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.751219 0002 0001 0001	# EV_REL / REL_Y                1
+E: 7.751219 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.751219 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.762516 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.762516 0002 0008 -001	# EV_REL / REL_WHEEL            -1
+E: 7.762516 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.773829 0002 0000 0002	# EV_REL / REL_X                2
+E: 7.773829 0002 0001 0001	# EV_REL / REL_Y                1
+E: 7.773829 0002 0008 -002	# EV_REL / REL_WHEEL            -2
+E: 7.773829 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.784959 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.784959 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.796226 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.796226 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.807458 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.807458 0002 0001 0001	# EV_REL / REL_Y                1
+E: 7.807458 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.886307 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.886307 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 7.897444 0002 0000 0001	# EV_REL / REL_X                1
+E: 7.897444 0002 0001 0001	# EV_REL / REL_Y                1
+E: 7.897444 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.280069 0002 0000 0001	# EV_REL / REL_X                1
+E: 8.280069 0002 0001 0001	# EV_REL / REL_Y                1
+E: 8.280069 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.291321 0002 0000 0001	# EV_REL / REL_X                1
+E: 8.291321 0002 0001 0001	# EV_REL / REL_Y                1
+E: 8.291321 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.302570 0002 0000 0001	# EV_REL / REL_X                1
+E: 8.302570 0002 0001 0001	# EV_REL / REL_Y                1
+E: 8.302570 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.313836 0002 0000 0002	# EV_REL / REL_X                2
+E: 8.313836 0002 0001 0003	# EV_REL / REL_Y                3
+E: 8.313836 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.325067 0002 0000 0003	# EV_REL / REL_X                3
+E: 8.325067 0002 0001 0005	# EV_REL / REL_Y                5
+E: 8.325067 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.336328 0002 0000 0003	# EV_REL / REL_X                3
+E: 8.336328 0002 0001 0005	# EV_REL / REL_Y                5
+E: 8.336328 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.347570 0002 0000 0003	# EV_REL / REL_X                3
+E: 8.347570 0002 0001 0003	# EV_REL / REL_Y                3
+E: 8.347570 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.358828 0002 0000 0002	# EV_REL / REL_X                2
+E: 8.358828 0002 0001 0003	# EV_REL / REL_Y                3
+E: 8.358828 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.370093 0002 0000 0001	# EV_REL / REL_X                1
+E: 8.370093 0002 0001 0002	# EV_REL / REL_Y                2
+E: 8.370093 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.392410 0002 0001 0001	# EV_REL / REL_Y                1
+E: 8.392410 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.482417 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 8.482417 0001 0110 0001	# EV_KEY / BTN_LEFT             1
+E: 8.482417 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.606191 0004 0004 589825	# EV_MSC / MSC_SCAN             589825
+E: 8.606191 0001 0110 0000	# EV_KEY / BTN_LEFT             0
+E: 8.606191 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 8.988838 0002 0000 -001	# EV_REL / REL_X                -1
+E: 8.988838 0002 0001 0002	# EV_REL / REL_Y                2
+E: 8.988838 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.000096 0002 0001 0001	# EV_REL / REL_Y                1
+E: 9.000096 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.011339 0002 0000 -001	# EV_REL / REL_X                -1
+E: 9.011339 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.011339 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.022629 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.022629 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.033797 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.033797 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.045042 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.045042 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.056304 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.056304 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.056304 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.067542 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.067542 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.067542 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.078823 0002 0000 0002	# EV_REL / REL_X                2
+E: 9.078823 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.078823 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.090075 0002 0000 0002	# EV_REL / REL_X                2
+E: 9.090075 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.090075 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.101334 0002 0000 0003	# EV_REL / REL_X                3
+E: 9.101334 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.101334 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.112561 0002 0000 0002	# EV_REL / REL_X                2
+E: 9.112561 0002 0001 0003	# EV_REL / REL_Y                3
+E: 9.112561 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.123772 0002 0000 0003	# EV_REL / REL_X                3
+E: 9.123772 0002 0001 0002	# EV_REL / REL_Y                2
+E: 9.123772 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.134956 0002 0000 0002	# EV_REL / REL_X                2
+E: 9.134956 0002 0001 0002	# EV_REL / REL_Y                2
+E: 9.134956 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.146270 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.146270 0002 0001 0001	# EV_REL / REL_Y                1
+E: 9.146270 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.157446 0002 0001 0001	# EV_REL / REL_Y                1
+E: 9.157446 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.168751 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.168751 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.281273 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.281273 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.292512 0002 0000 -001	# EV_REL / REL_X                -1
+E: 9.292512 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.303773 0002 0000 -002	# EV_REL / REL_X                -2
+E: 9.303773 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.303773 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.315023 0002 0000 -003	# EV_REL / REL_X                -3
+E: 9.315023 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.326285 0002 0000 -002	# EV_REL / REL_X                -2
+E: 9.326285 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.326285 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.337434 0002 0000 -001	# EV_REL / REL_X                -1
+E: 9.337434 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.348808 0002 0000 -001	# EV_REL / REL_X                -1
+E: 9.348808 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.348808 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.472525 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.472525 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.495112 0002 0000 0006	# EV_REL / REL_X                6
+E: 9.495112 0002 0001 0001	# EV_REL / REL_Y                1
+E: 9.495112 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.506364 0002 0000 0007	# EV_REL / REL_X                7
+E: 9.506364 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.517644 0002 0000 0009	# EV_REL / REL_X                9
+E: 9.517644 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.528878 0002 0000 0010	# EV_REL / REL_X                10
+E: 9.528878 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 9.528878 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.540069 0002 0000 0010	# EV_REL / REL_X                10
+E: 9.540069 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.540069 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.551249 0002 0000 0009	# EV_REL / REL_X                9
+E: 9.551249 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.562576 0002 0000 0007	# EV_REL / REL_X                7
+E: 9.562576 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 9.562576 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.573826 0002 0000 0004	# EV_REL / REL_X                4
+E: 9.573826 0002 0001 -002	# EV_REL / REL_Y                -2
+E: 9.573826 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.585079 0002 0000 0002	# EV_REL / REL_X                2
+E: 9.585079 0002 0001 -001	# EV_REL / REL_Y                -1
+E: 9.585079 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 9.663855 0002 0000 0001	# EV_REL / REL_X                1
+E: 9.663855 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
