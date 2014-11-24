@@ -1,0 +1,110 @@
+# EVEMU 1.2
+# Input device name: "Microsoft X-Box 360 pad"
+# Input device ID: bus 0x03 vendor 0x45e product 0x28e version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_MAX)
+#   Event type 1 (EV_KEY)
+#     Event code 304 (BTN_SOUTH)
+#     Event code 305 (BTN_EAST)
+#     Event code 307 (BTN_NORTH)
+#     Event code 308 (BTN_WEST)
+#     Event code 310 (BTN_TL)
+#     Event code 311 (BTN_TR)
+#     Event code 314 (BTN_SELECT)
+#     Event code 315 (BTN_START)
+#     Event code 316 (BTN_MODE)
+#     Event code 317 (BTN_THUMBL)
+#     Event code 318 (BTN_THUMBR)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min   -32768
+#       Max    32767
+#       Fuzz      16
+#       Flat     128
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min   -32768
+#       Max    32767
+#       Fuzz      16
+#       Flat     128
+#       Resolution 0
+#     Event code 2 (ABS_Z)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 3 (ABS_RX)
+#       Value      0
+#       Min   -32768
+#       Max    32767
+#       Fuzz      16
+#       Flat     128
+#       Resolution 0
+#     Event code 4 (ABS_RY)
+#       Value      0
+#       Min   -32768
+#       Max    32767
+#       Fuzz      16
+#       Flat     128
+#       Resolution 0
+#     Event code 5 (ABS_RZ)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 16 (ABS_HAT0X)
+#       Value      0
+#       Min       -1
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 17 (ABS_HAT0Y)
+#       Value      0
+#       Min       -1
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+N: Microsoft X-Box 360 pad
+I: 0003 045e 028e 0110
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 db 7c
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 3f 00 03 00 00 00 00 00
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 -32768 32767 16 128 0
+A: 01 -32768 32767 16 128 0
+A: 02 0 255 0 0 0
+A: 03 -32768 32767 16 128 0
+A: 04 -32768 32767 16 128 0
+A: 05 0 255 0 0 0
+A: 10 -1 1 0 0 0
+A: 11 -1 1 0 0 0
