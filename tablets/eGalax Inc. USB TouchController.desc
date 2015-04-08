@@ -1,6 +1,64 @@
+# EVEMU 1.2
+# Input device name: "eGalax Inc. USB TouchController"
+# Input device ID: bus 0x03 vendor 0xeef product 0x01 version 0x210
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 320 (BTN_TOOL_PEN)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min       42
+#       Max     1981
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min       42
+#       Max     1981
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 2 (ABS_Z)
+#       Value      0
+#       Min       30
+#       Max     4040
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 3 (ABS_RX)
+#       Value      0
+#       Min       60
+#       Max     4035
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+# Properties:
 N: eGalax Inc. USB TouchController
 I: 0003 0eef 0001 0210
-B: 00 1b 00 00 00 00 00 00 00
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
@@ -19,9 +77,10 @@ B: 04 10 00 00 00 00 00 00 00
 B: 05 00 00 00 00 00 00 00 00
 B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 42 1981 0 0
-A: 01 42 1981 0 0
-A: 02 30 4040 0 0
-A: 03 60 4035 0 0
+A: 00 42 1981 0 0 0
+A: 01 42 1981 0 0 0
+A: 02 30 4040 0 0 0
+A: 03 60 4035 0 0 0

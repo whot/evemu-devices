@@ -1,11 +1,23 @@
-# EVEMU 1.1
+# EVEMU 1.2
 # Input device name: "Wacom ISDv4 90"
 # Input device ID: bus 0x03 vendor 0x56a product 0x90 version 0x147
 # Supported events:
 #   Event type 0 (EV_SYN)
 #     Event code 0 (SYN_REPORT)
 #     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
 #     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
 #   Event type 1 (EV_KEY)
 #     Event code 320 (BTN_TOOL_PEN)
 #     Event code 321 (BTN_TOOL_RUBBER)
@@ -59,6 +71,7 @@
 # Properties:
 N: Wacom ISDv4 90
 I: 0003 056a 0090 0147
+P: 00 00 00 00 00 00 00 00
 B: 00 0b 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
@@ -78,11 +91,12 @@ B: 04 00 00 00 00 00 00 00 00
 B: 05 00 00 00 00 00 00 00 00
 B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 26202 4 0
-A: 01 0 16325 4 0
-A: 03 0 1023 4 0
-A: 04 0 1023 4 0
-A: 18 0 255 0 0
-A: 28 0 0 0 0
+A: 00 0 26202 4 0 0
+A: 01 0 16325 4 0 0
+A: 03 0 1023 4 0 0
+A: 04 0 1023 4 0 0
+A: 18 0 255 0 0 0
+A: 28 0 0 0 0 0

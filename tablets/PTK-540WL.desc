@@ -1,7 +1,75 @@
+# EVEMU 1.2
+# Input device name: "PTK-540WL"
+# Input device ID: bus 0x05 vendor 0x56a product 0xbd version 0x106
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 275 (BTN_SIDE)
+#     Event code 276 (BTN_EXTRA)
+#     Event code 277 (BTN_FORWARD)
+#     Event code 320 (BTN_TOOL_PEN)
+#     Event code 321 (BTN_TOOL_RUBBER)
+#     Event code 325 (BTN_TOOL_FINGER)
+#     Event code 326 (BTN_TOOL_MOUSE)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 331 (BTN_STYLUS)
+#     Event code 332 (BTN_STYLUS2)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+#     Event code 8 (REL_WHEEL)
+#     Event code 9 (REL_MISC)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max    40640
+#       Fuzz       4
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max    25400
+#       Fuzz       4
+#       Flat       0
+#       Resolution 0
+#     Event code 24 (ABS_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max     2047
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 0 (MSC_SERIAL)
+#     Event code 4 (MSC_SCAN)
+# Properties:
+#   Property  type 0 (INPUT_PROP_POINTER)
 N: PTK-540WL
 I: 0005 056a 00bd 0106
 P: 01 00 00 00 00 00 00 00
-B: 00 1f 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
 B: 01 00 00 00 00 00 00 00 00
@@ -20,8 +88,9 @@ B: 04 11 00 00 00 00 00 00 00
 B: 05 00 00 00 00 00 00 00 00
 B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 40640 4 0
-A: 01 0 25400 4 0
-A: 18 0 2047 0 0
+A: 00 0 40640 4 0 0
+A: 01 0 25400 4 0 0
+A: 18 0 2047 0 0 0
