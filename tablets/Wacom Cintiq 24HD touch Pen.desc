@@ -1,0 +1,139 @@
+# EVEMU 1.2
+# Input device name: "Wacom Cintiq 24HD touch Pen"
+# Input device ID: bus 0x03 vendor 0x56a product 0xf8 version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 320 (BTN_TOOL_PEN)
+#     Event code 321 (BTN_TOOL_RUBBER)
+#     Event code 322 (BTN_TOOL_BRUSH)
+#     Event code 323 (BTN_TOOL_PENCIL)
+#     Event code 324 (BTN_TOOL_AIRBRUSH)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 331 (BTN_STYLUS)
+#     Event code 332 (BTN_STYLUS2)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min      400
+#       Max   104080
+#       Fuzz       4
+#       Flat       0
+#       Resolution 200
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min      400
+#       Max    65200
+#       Fuzz       4
+#       Flat       0
+#       Resolution 200
+#     Event code 2 (ABS_Z)
+#       Value      0
+#       Min     -900
+#       Max      899
+#       Fuzz       0
+#       Flat       0
+#       Resolution 287
+#     Event code 6 (ABS_THROTTLE)
+#       Value      0
+#       Min        0
+#       Max       71
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 8 (ABS_WHEEL)
+#       Value      0
+#       Min        0
+#       Max     1023
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 24 (ABS_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max     2047
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 25 (ABS_DISTANCE)
+#       Value      0
+#       Min        0
+#       Max       63
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 26 (ABS_TILT_X)
+#       Value      0
+#       Min      -64
+#       Max       63
+#       Fuzz       0
+#       Flat       0
+#       Resolution 57
+#     Event code 27 (ABS_TILT_Y)
+#       Value      0
+#       Min      -64
+#       Max       63
+#       Fuzz       0
+#       Flat       0
+#       Resolution 57
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 0 (MSC_SERIAL)
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
+N: Wacom Cintiq 24HD touch Pen
+I: 0003 056a 00f8 0110
+P: 02 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 1f 1c 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 47 01 00 0f 00 01 00 00
+B: 04 01 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 400 104080 4 0 200
+A: 01 400 65200 4 0 200
+A: 02 -900 899 0 0 287
+A: 06 0 71 0 0 0
+A: 08 0 1023 0 0 0
+A: 18 0 2047 0 0 0
+A: 19 0 63 0 0 0
+A: 1a -64 63 0 0 57
+A: 1b -64 63 0 0 57
+A: 28 0 0 0 0 0

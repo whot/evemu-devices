@@ -1,0 +1,130 @@
+# EVEMU 1.2
+# Input device name: "Wacom Cintiq 24HD touch Finger"
+# Input device ID: bus 0x03 vendor 0x56a product 0xf6 version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     5184
+#       Fuzz       0
+#       Flat       0
+#       Resolution 10
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max     3240
+#       Fuzz       0
+#       Flat       0
+#       Resolution 10
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max        9
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max     5184
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 50 (ABS_MT_WIDTH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max     5184
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 51 (ABS_MT_WIDTH_MINOR)
+#       Value      0
+#       Min        0
+#       Max     3240
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max     5184
+#       Fuzz       4
+#       Flat       0
+#       Resolution 10
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max     3240
+#       Fuzz       4
+#       Flat       0
+#       Resolution 10
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
+N: Wacom Cintiq 24HD touch Finger
+I: 0003 056a 00f6 0110
+P: 02 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 04 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 00 00 00 00 80 7d 02
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 5184 0 0 10
+A: 01 0 3240 0 0 10
+A: 2f 0 9 0 0 0
+A: 30 0 5184 0 0 0
+A: 32 0 5184 0 0 0
+A: 33 0 3240 0 0 0
+A: 34 0 1 0 0 0
+A: 35 0 5184 4 0 10
+A: 36 0 3240 4 0 10
+A: 39 0 65535 0 0 0
