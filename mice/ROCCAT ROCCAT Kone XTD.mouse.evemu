@@ -1,0 +1,230 @@
+# EVEMU 1.2
+# Input device name: "ROCCAT ROCCAT Kone XTD"
+# Input device ID: bus 0x03 vendor 0x1e7d product 0x2e22 version 0x100
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 1 (KEY_ESC)
+#     Event code 28 (KEY_ENTER)
+#     Event code 74 (KEY_KPMINUS)
+#     Event code 78 (KEY_KPPLUS)
+#     Event code 103 (KEY_UP)
+#     Event code 105 (KEY_LEFT)
+#     Event code 106 (KEY_RIGHT)
+#     Event code 108 (KEY_DOWN)
+#     Event code 113 (KEY_MUTE)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 116 (KEY_POWER)
+#     Event code 119 (KEY_PAUSE)
+#     Event code 128 (KEY_STOP)
+#     Event code 130 (KEY_PROPS)
+#     Event code 131 (KEY_UNDO)
+#     Event code 133 (KEY_COPY)
+#     Event code 134 (KEY_OPEN)
+#     Event code 135 (KEY_PASTE)
+#     Event code 136 (KEY_FIND)
+#     Event code 137 (KEY_CUT)
+#     Event code 138 (KEY_HELP)
+#     Event code 139 (KEY_MENU)
+#     Event code 140 (KEY_CALC)
+#     Event code 142 (KEY_SLEEP)
+#     Event code 144 (KEY_FILE)
+#     Event code 150 (KEY_WWW)
+#     Event code 152 (KEY_COFFEE)
+#     Event code 155 (KEY_MAIL)
+#     Event code 156 (KEY_BOOKMARKS)
+#     Event code 158 (KEY_BACK)
+#     Event code 159 (KEY_FORWARD)
+#     Event code 161 (KEY_EJECTCD)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#     Event code 166 (KEY_STOPCD)
+#     Event code 167 (KEY_RECORD)
+#     Event code 168 (KEY_REWIND)
+#     Event code 169 (KEY_PHONE)
+#     Event code 171 (KEY_CONFIG)
+#     Event code 172 (KEY_HOMEPAGE)
+#     Event code 173 (KEY_REFRESH)
+#     Event code 174 (KEY_EXIT)
+#     Event code 177 (KEY_SCROLLUP)
+#     Event code 178 (KEY_SCROLLDOWN)
+#     Event code 181 (KEY_NEW)
+#     Event code 206 (KEY_CLOSE)
+#     Event code 207 (KEY_PLAY)
+#     Event code 208 (KEY_FASTFORWARD)
+#     Event code 209 (KEY_BASSBOOST)
+#     Event code 210 (KEY_PRINT)
+#     Event code 212 (KEY_CAMERA)
+#     Event code 216 (KEY_CHAT)
+#     Event code 217 (KEY_SEARCH)
+#     Event code 219 (KEY_FINANCE)
+#     Event code 224 (KEY_BRIGHTNESSDOWN)
+#     Event code 225 (KEY_BRIGHTNESSUP)
+#     Event code 228 (KEY_KBDILLUMTOGGLE)
+#     Event code 234 (KEY_SAVE)
+#     Event code 235 (KEY_DOCUMENTS)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 241 (KEY_VIDEO_NEXT)
+#     Event code 244 (KEY_BRIGHTNESS_AUTO)
+#     Event code 256 (BTN_0)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 275 (BTN_SIDE)
+#     Event code 276 (BTN_EXTRA)
+#     Event code 353 (KEY_SELECT)
+#     Event code 354 (KEY_GOTO)
+#     Event code 358 (KEY_INFO)
+#     Event code 362 (KEY_PROGRAM)
+#     Event code 366 (KEY_PVR)
+#     Event code 370 (KEY_SUBTITLE)
+#     Event code 372 (KEY_ZOOM)
+#     Event code 374 (KEY_KEYBOARD)
+#     Event code 376 (KEY_PC)
+#     Event code 377 (KEY_TV)
+#     Event code 378 (KEY_TV2)
+#     Event code 379 (KEY_VCR)
+#     Event code 380 (KEY_VCR2)
+#     Event code 381 (KEY_SAT)
+#     Event code 383 (KEY_CD)
+#     Event code 384 (KEY_TAPE)
+#     Event code 386 (KEY_TUNER)
+#     Event code 387 (KEY_PLAYER)
+#     Event code 389 (KEY_DVD)
+#     Event code 392 (KEY_AUDIO)
+#     Event code 393 (KEY_VIDEO)
+#     Event code 396 (KEY_MEMO)
+#     Event code 397 (KEY_CALENDAR)
+#     Event code 398 (KEY_RED)
+#     Event code 399 (KEY_GREEN)
+#     Event code 400 (KEY_YELLOW)
+#     Event code 401 (KEY_BLUE)
+#     Event code 402 (KEY_CHANNELUP)
+#     Event code 403 (KEY_CHANNELDOWN)
+#     Event code 405 (KEY_LAST)
+#     Event code 407 (KEY_NEXT)
+#     Event code 408 (KEY_RESTART)
+#     Event code 409 (KEY_SLOW)
+#     Event code 410 (KEY_SHUFFLE)
+#     Event code 412 (KEY_PREVIOUS)
+#     Event code 416 (KEY_VIDEOPHONE)
+#     Event code 417 (KEY_GAMES)
+#     Event code 418 (KEY_ZOOMIN)
+#     Event code 419 (KEY_ZOOMOUT)
+#     Event code 420 (KEY_ZOOMRESET)
+#     Event code 421 (KEY_WORDPROCESSOR)
+#     Event code 422 (KEY_EDITOR)
+#     Event code 423 (KEY_SPREADSHEET)
+#     Event code 424 (KEY_GRAPHICSEDITOR)
+#     Event code 425 (KEY_PRESENTATION)
+#     Event code 426 (KEY_DATABASE)
+#     Event code 427 (KEY_NEWS)
+#     Event code 428 (KEY_VOICEMAIL)
+#     Event code 429 (KEY_ADDRESSBOOK)
+#     Event code 430 (KEY_MESSENGER)
+#     Event code 431 (KEY_DISPLAYTOGGLE)
+#     Event code 432 (KEY_SPELLCHECK)
+#     Event code 433 (KEY_LOGOFF)
+#     Event code 439 (KEY_MEDIA_REPEAT)
+#     Event code 442 (KEY_IMAGES)
+#     Event code 576 (KEY_BUTTONCONFIG)
+#     Event code 577 (KEY_TASKMANAGER)
+#     Event code 578 (KEY_JOURNAL)
+#     Event code 579 (KEY_CONTROLPANEL)
+#     Event code 580 (KEY_APPSELECT)
+#     Event code 581 (KEY_SCREENSAVER)
+#     Event code 582 (KEY_VOICECOMMAND)
+#     Event code 592 (KEY_BRIGHTNESS_MIN)
+#     Event code 593 (KEY_BRIGHTNESS_MAX)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+#     Event code 6 (REL_HWHEEL)
+#     Event code 7 (REL_DIAL)
+#     Event code 8 (REL_WHEEL)
+#   Event type 3 (EV_ABS)
+#     Event code 32 (ABS_VOLUME)
+#       Value      0
+#       Min        0
+#       Max      572
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 41 ((null))
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 42 ((null))
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 43 ((null))
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+# Properties:
+N: ROCCAT ROCCAT Kone XTD
+I: 0003 1e7d 2e22 0100
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 02 00 00 10 00 00 00 00
+B: 01 00 44 00 00 80 16 9e 00
+B: 01 ed 5f 41 d9 fa 7b 26 00
+B: 01 00 c0 17 0b 13 0c 13 00
+B: 01 01 00 1f 00 00 00 00 00
+B: 01 00 00 00 00 46 44 54 bf
+B: 01 2d f3 af 17 ff ff 83 04
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 7f 00 03 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 c3 01 00 00 00 00 00 00
+B: 03 00 00 00 00 01 0f 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 20 0 572 0 0 0
+A: 28 0 0 0 0 0
+A: 29 0 0 0 0 0
+A: 2a 0 0 0 0 0
+A: 2b 0 0 0 0 0
