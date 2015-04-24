@@ -1,0 +1,620 @@
+# EVEMU 1.2
+# Input device name: "Microsoft Surface Type Cover"
+# Input device ID: bus 0x03 vendor 0x45e product 0x7dc version 0x111
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 1 (KEY_ESC)
+#     Event code 2 (KEY_1)
+#     Event code 3 (KEY_2)
+#     Event code 4 (KEY_3)
+#     Event code 5 (KEY_4)
+#     Event code 6 (KEY_5)
+#     Event code 7 (KEY_6)
+#     Event code 8 (KEY_7)
+#     Event code 9 (KEY_8)
+#     Event code 10 (KEY_9)
+#     Event code 11 (KEY_0)
+#     Event code 12 (KEY_MINUS)
+#     Event code 13 (KEY_EQUAL)
+#     Event code 14 (KEY_BACKSPACE)
+#     Event code 15 (KEY_TAB)
+#     Event code 16 (KEY_Q)
+#     Event code 17 (KEY_W)
+#     Event code 18 (KEY_E)
+#     Event code 19 (KEY_R)
+#     Event code 20 (KEY_T)
+#     Event code 21 (KEY_Y)
+#     Event code 22 (KEY_U)
+#     Event code 23 (KEY_I)
+#     Event code 24 (KEY_O)
+#     Event code 25 (KEY_P)
+#     Event code 26 (KEY_LEFTBRACE)
+#     Event code 27 (KEY_RIGHTBRACE)
+#     Event code 28 (KEY_ENTER)
+#     Event code 29 (KEY_LEFTCTRL)
+#     Event code 30 (KEY_A)
+#     Event code 31 (KEY_S)
+#     Event code 32 (KEY_D)
+#     Event code 33 (KEY_F)
+#     Event code 34 (KEY_G)
+#     Event code 35 (KEY_H)
+#     Event code 36 (KEY_J)
+#     Event code 37 (KEY_K)
+#     Event code 38 (KEY_L)
+#     Event code 39 (KEY_SEMICOLON)
+#     Event code 40 (KEY_APOSTROPHE)
+#     Event code 41 (KEY_GRAVE)
+#     Event code 42 (KEY_LEFTSHIFT)
+#     Event code 43 (KEY_BACKSLASH)
+#     Event code 44 (KEY_Z)
+#     Event code 45 (KEY_X)
+#     Event code 46 (KEY_C)
+#     Event code 47 (KEY_V)
+#     Event code 48 (KEY_B)
+#     Event code 49 (KEY_N)
+#     Event code 50 (KEY_M)
+#     Event code 51 (KEY_COMMA)
+#     Event code 52 (KEY_DOT)
+#     Event code 53 (KEY_SLASH)
+#     Event code 54 (KEY_RIGHTSHIFT)
+#     Event code 55 (KEY_KPASTERISK)
+#     Event code 56 (KEY_LEFTALT)
+#     Event code 57 (KEY_SPACE)
+#     Event code 58 (KEY_CAPSLOCK)
+#     Event code 59 (KEY_F1)
+#     Event code 60 (KEY_F2)
+#     Event code 61 (KEY_F3)
+#     Event code 62 (KEY_F4)
+#     Event code 63 (KEY_F5)
+#     Event code 64 (KEY_F6)
+#     Event code 65 (KEY_F7)
+#     Event code 66 (KEY_F8)
+#     Event code 67 (KEY_F9)
+#     Event code 68 (KEY_F10)
+#     Event code 69 (KEY_NUMLOCK)
+#     Event code 70 (KEY_SCROLLLOCK)
+#     Event code 71 (KEY_KP7)
+#     Event code 72 (KEY_KP8)
+#     Event code 73 (KEY_KP9)
+#     Event code 74 (KEY_KPMINUS)
+#     Event code 75 (KEY_KP4)
+#     Event code 76 (KEY_KP5)
+#     Event code 77 (KEY_KP6)
+#     Event code 78 (KEY_KPPLUS)
+#     Event code 79 (KEY_KP1)
+#     Event code 80 (KEY_KP2)
+#     Event code 81 (KEY_KP3)
+#     Event code 82 (KEY_KP0)
+#     Event code 83 (KEY_KPDOT)
+#     Event code 86 (KEY_102ND)
+#     Event code 87 (KEY_F11)
+#     Event code 88 (KEY_F12)
+#     Event code 89 (KEY_RO)
+#     Event code 92 (KEY_HENKAN)
+#     Event code 93 (KEY_KATAKANAHIRAGANA)
+#     Event code 94 (KEY_MUHENKAN)
+#     Event code 95 (KEY_KPJPCOMMA)
+#     Event code 96 (KEY_KPENTER)
+#     Event code 97 (KEY_RIGHTCTRL)
+#     Event code 98 (KEY_KPSLASH)
+#     Event code 99 (KEY_SYSRQ)
+#     Event code 100 (KEY_RIGHTALT)
+#     Event code 102 (KEY_HOME)
+#     Event code 103 (KEY_UP)
+#     Event code 104 (KEY_PAGEUP)
+#     Event code 105 (KEY_LEFT)
+#     Event code 106 (KEY_RIGHT)
+#     Event code 107 (KEY_END)
+#     Event code 108 (KEY_DOWN)
+#     Event code 109 (KEY_PAGEDOWN)
+#     Event code 110 (KEY_INSERT)
+#     Event code 111 (KEY_DELETE)
+#     Event code 113 (KEY_MUTE)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 116 (KEY_POWER)
+#     Event code 117 (KEY_KPEQUAL)
+#     Event code 119 (KEY_PAUSE)
+#     Event code 121 (KEY_KPCOMMA)
+#     Event code 122 (KEY_HANGEUL)
+#     Event code 123 (KEY_HANJA)
+#     Event code 124 (KEY_YEN)
+#     Event code 125 (KEY_LEFTMETA)
+#     Event code 126 (KEY_RIGHTMETA)
+#     Event code 127 (KEY_COMPOSE)
+#     Event code 128 (KEY_STOP)
+#     Event code 129 (KEY_AGAIN)
+#     Event code 130 (KEY_PROPS)
+#     Event code 131 (KEY_UNDO)
+#     Event code 132 (KEY_FRONT)
+#     Event code 133 (KEY_COPY)
+#     Event code 134 (KEY_OPEN)
+#     Event code 135 (KEY_PASTE)
+#     Event code 136 (KEY_FIND)
+#     Event code 137 (KEY_CUT)
+#     Event code 138 (KEY_HELP)
+#     Event code 139 (KEY_MENU)
+#     Event code 140 (KEY_CALC)
+#     Event code 142 (KEY_SLEEP)
+#     Event code 144 (KEY_FILE)
+#     Event code 150 (KEY_WWW)
+#     Event code 152 (KEY_COFFEE)
+#     Event code 155 (KEY_MAIL)
+#     Event code 156 (KEY_BOOKMARKS)
+#     Event code 158 (KEY_BACK)
+#     Event code 159 (KEY_FORWARD)
+#     Event code 161 (KEY_EJECTCD)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#     Event code 166 (KEY_STOPCD)
+#     Event code 167 (KEY_RECORD)
+#     Event code 168 (KEY_REWIND)
+#     Event code 169 (KEY_PHONE)
+#     Event code 171 (KEY_CONFIG)
+#     Event code 172 (KEY_HOMEPAGE)
+#     Event code 173 (KEY_REFRESH)
+#     Event code 174 (KEY_EXIT)
+#     Event code 176 (KEY_EDIT)
+#     Event code 177 (KEY_SCROLLUP)
+#     Event code 178 (KEY_SCROLLDOWN)
+#     Event code 181 (KEY_NEW)
+#     Event code 182 (KEY_REDO)
+#     Event code 183 (KEY_F13)
+#     Event code 184 (KEY_F14)
+#     Event code 185 (KEY_F15)
+#     Event code 186 (KEY_F16)
+#     Event code 187 (KEY_F17)
+#     Event code 188 (KEY_F18)
+#     Event code 189 (KEY_F19)
+#     Event code 190 (KEY_F20)
+#     Event code 191 (KEY_F21)
+#     Event code 192 (KEY_F22)
+#     Event code 193 (KEY_F23)
+#     Event code 194 (KEY_F24)
+#     Event code 206 (KEY_CLOSE)
+#     Event code 207 (KEY_PLAY)
+#     Event code 208 (KEY_FASTFORWARD)
+#     Event code 209 (KEY_BASSBOOST)
+#     Event code 210 (KEY_PRINT)
+#     Event code 212 (KEY_CAMERA)
+#     Event code 216 (KEY_CHAT)
+#     Event code 217 (KEY_SEARCH)
+#     Event code 219 (KEY_FINANCE)
+#     Event code 223 (KEY_CANCEL)
+#     Event code 224 (KEY_BRIGHTNESSDOWN)
+#     Event code 225 (KEY_BRIGHTNESSUP)
+#     Event code 228 (KEY_KBDILLUMTOGGLE)
+#     Event code 231 (KEY_SEND)
+#     Event code 232 (KEY_REPLY)
+#     Event code 233 (KEY_FORWARDMAIL)
+#     Event code 234 (KEY_SAVE)
+#     Event code 235 (KEY_DOCUMENTS)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 241 (KEY_VIDEO_NEXT)
+#     Event code 244 (KEY_BRIGHTNESS_AUTO)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 258 (BTN_2)
+#     Event code 259 (BTN_3)
+#     Event code 260 (BTN_4)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 275 (BTN_SIDE)
+#     Event code 276 (BTN_EXTRA)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 353 (KEY_SELECT)
+#     Event code 354 (KEY_GOTO)
+#     Event code 358 (KEY_INFO)
+#     Event code 362 (KEY_PROGRAM)
+#     Event code 366 (KEY_PVR)
+#     Event code 370 (KEY_SUBTITLE)
+#     Event code 372 (KEY_ZOOM)
+#     Event code 374 (KEY_KEYBOARD)
+#     Event code 376 (KEY_PC)
+#     Event code 377 (KEY_TV)
+#     Event code 378 (KEY_TV2)
+#     Event code 379 (KEY_VCR)
+#     Event code 380 (KEY_VCR2)
+#     Event code 381 (KEY_SAT)
+#     Event code 383 (KEY_CD)
+#     Event code 384 (KEY_TAPE)
+#     Event code 386 (KEY_TUNER)
+#     Event code 387 (KEY_PLAYER)
+#     Event code 389 (KEY_DVD)
+#     Event code 392 (KEY_AUDIO)
+#     Event code 393 (KEY_VIDEO)
+#     Event code 396 (KEY_MEMO)
+#     Event code 397 (KEY_CALENDAR)
+#     Event code 398 (KEY_RED)
+#     Event code 399 (KEY_GREEN)
+#     Event code 400 (KEY_YELLOW)
+#     Event code 401 (KEY_BLUE)
+#     Event code 402 (KEY_CHANNELUP)
+#     Event code 403 (KEY_CHANNELDOWN)
+#     Event code 405 (KEY_LAST)
+#     Event code 407 (KEY_NEXT)
+#     Event code 408 (KEY_RESTART)
+#     Event code 409 (KEY_SLOW)
+#     Event code 410 (KEY_SHUFFLE)
+#     Event code 412 (KEY_PREVIOUS)
+#     Event code 416 (KEY_VIDEOPHONE)
+#     Event code 417 (KEY_GAMES)
+#     Event code 418 (KEY_ZOOMIN)
+#     Event code 419 (KEY_ZOOMOUT)
+#     Event code 420 (KEY_ZOOMRESET)
+#     Event code 421 (KEY_WORDPROCESSOR)
+#     Event code 422 (KEY_EDITOR)
+#     Event code 423 (KEY_SPREADSHEET)
+#     Event code 424 (KEY_GRAPHICSEDITOR)
+#     Event code 425 (KEY_PRESENTATION)
+#     Event code 426 (KEY_DATABASE)
+#     Event code 427 (KEY_NEWS)
+#     Event code 428 (KEY_VOICEMAIL)
+#     Event code 429 (KEY_ADDRESSBOOK)
+#     Event code 430 (KEY_MESSENGER)
+#     Event code 431 (KEY_DISPLAYTOGGLE)
+#     Event code 432 (KEY_SPELLCHECK)
+#     Event code 433 (KEY_LOGOFF)
+#     Event code 439 (KEY_MEDIA_REPEAT)
+#     Event code 442 (KEY_IMAGES)
+#     Event code 576 (KEY_BUTTONCONFIG)
+#     Event code 577 (KEY_TASKMANAGER)
+#     Event code 578 (KEY_JOURNAL)
+#     Event code 579 (KEY_CONTROLPANEL)
+#     Event code 580 (KEY_APPSELECT)
+#     Event code 581 (KEY_SCREENSAVER)
+#     Event code 582 (KEY_VOICECOMMAND)
+#     Event code 592 (KEY_BRIGHTNESS_MIN)
+#     Event code 593 (KEY_BRIGHTNESS_MAX)
+#     Event code 608 (KEY_KBDINPUTASSIST_PREV)
+#     Event code 609 (KEY_KBDINPUTASSIST_NEXT)
+#     Event code 610 (KEY_KBDINPUTASSIST_PREVGROUP)
+#     Event code 611 (KEY_KBDINPUTASSIST_NEXTGROUP)
+#     Event code 612 (KEY_KBDINPUTASSIST_ACCEPT)
+#     Event code 613 (KEY_KBDINPUTASSIST_CANCEL)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+#     Event code 6 (REL_HWHEEL)
+#     Event code 7 (REL_DIAL)
+#     Event code 8 (REL_WHEEL)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     1022
+#       Fuzz       0
+#       Flat       0
+#       Resolution 12
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max      487
+#       Fuzz       0
+#       Flat       0
+#       Resolution 12
+#     Event code 32 (ABS_VOLUME)
+#       Value      0
+#       Min        0
+#       Max     1023
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 41 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 42 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 43 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 44 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 45 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 46 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 49 (ABS_MT_TOUCH_MINOR)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 50 (ABS_MT_WIDTH_MAJOR)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 51 (ABS_MT_WIDTH_MINOR)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 55 (ABS_MT_TOOL_TYPE)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 56 (ABS_MT_BLOB_ID)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 58 (ABS_MT_PRESSURE)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 59 (ABS_MT_DISTANCE)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 60 (ABS_MT_TOOL_X)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 61 (ABS_MT_TOOL_Y)
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 62 ((null))
+#       Value      0
+#       Min     -127
+#       Max      127
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+#   Event type 17 (EV_LED)
+#     Event code 0 (LED_NUML)
+#     Event code 1 (LED_CAPSL)
+#     Event code 2 (LED_SCROLLL)
+#   Event type 20 (EV_REP)
+#     Event code 0 (REP_DELAY)
+# Properties:
+N: Microsoft Surface Type Cover
+I: 0003 045e 07dc 0111
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 fe ff ff ff ff ff ff ff
+B: 01 ff ff cf f3 df ff be fe
+B: 01 ff 5f 41 d9 fa 7b e7 ff
+B: 01 07 c0 17 8b 93 0f 13 00
+B: 01 1f 00 1f 00 00 00 00 00
+B: 01 00 04 00 00 46 44 54 bf
+B: 01 2d f3 af 17 ff ff 83 04
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 7f 00 03 00 3f 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 c3 01 00 00 00 00 00 00
+B: 03 03 00 00 00 01 ff ff 7f
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 07 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 01 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 1022 0 0 12
+A: 01 0 487 0 0 12
+A: 20 0 1023 0 0 0
+A: 28 0 255 0 0 0
+A: 29 0 255 0 0 0
+A: 2a -127 127 0 0 0
+A: 2b -127 127 0 0 0
+A: 2c -127 127 0 0 0
+A: 2d -127 127 0 0 0
+A: 2e -127 127 0 0 0
+A: 2f -127 127 0 0 0
+A: 30 -127 127 0 0 0
+A: 31 -127 127 0 0 0
+A: 32 -127 127 0 0 0
+A: 33 -127 127 0 0 0
+A: 34 -127 127 0 0 0
+A: 35 -127 127 0 0 0
+A: 36 -127 127 0 0 0
+A: 37 -127 127 0 0 0
+A: 38 -127 127 0 0 0
+A: 39 -127 127 0 0 0
+A: 3a -127 127 0 0 0
+A: 3b -127 127 0 0 0
+A: 3c -127 127 0 0 0
+A: 3d -127 127 0 0 0
+A: 3e -127 127 0 0 0
+A: 3f -127 127 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000000 0004 0004 458792	# EV_MSC / MSC_SCAN             458792
+E: 0.000000 0001 001c 0000	# EV_KEY / KEY_ENTER            0
+E: 0.000000 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.589970 0004 0004 458792	# EV_MSC / MSC_SCAN             458792
+E: 4.589970 0001 001c 0001	# EV_KEY / KEY_ENTER            1
+E: 4.589970 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 4.709938 0004 0004 458792	# EV_MSC / MSC_SCAN             458792
+E: 4.709938 0001 001c 0000	# EV_KEY / KEY_ENTER            0
+E: 4.709938 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.429910 0004 0004 458792	# EV_MSC / MSC_SCAN             458792
+E: 6.429910 0001 001c 0001	# EV_KEY / KEY_ENTER            1
+E: 6.429910 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 6.639958 0004 0004 458792	# EV_MSC / MSC_SCAN             458792
+E: 6.639958 0001 001c 0000	# EV_KEY / KEY_ENTER            0
+E: 6.639958 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.419949 0002 0000 0004	# EV_REL / REL_X                4
+E: 10.419949 0002 0001 0001	# EV_REL / REL_Y                1
+E: 10.419949 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.429874 0002 0000 0002	# EV_REL / REL_X                2
+E: 10.429874 0002 0001 0002	# EV_REL / REL_Y                2
+E: 10.429874 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.434861 0002 0000 0007	# EV_REL / REL_X                7
+E: 10.434861 0002 0001 0001	# EV_REL / REL_Y                1
+E: 10.434861 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.439877 0002 0000 0005	# EV_REL / REL_X                5
+E: 10.439877 0002 0001 0002	# EV_REL / REL_Y                2
+E: 10.439877 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.449932 0002 0000 0005	# EV_REL / REL_X                5
+E: 10.449932 0002 0001 0003	# EV_REL / REL_Y                3
+E: 10.449932 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.454927 0002 0000 0005	# EV_REL / REL_X                5
+E: 10.454927 0002 0001 0002	# EV_REL / REL_Y                2
+E: 10.454927 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.464926 0002 0000 0008	# EV_REL / REL_X                8
+E: 10.464926 0002 0001 0004	# EV_REL / REL_Y                4
+E: 10.464926 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.469869 0002 0000 0007	# EV_REL / REL_X                7
+E: 10.469869 0002 0001 0003	# EV_REL / REL_Y                3
+E: 10.469869 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.479859 0002 0000 0006	# EV_REL / REL_X                6
+E: 10.479859 0002 0001 0003	# EV_REL / REL_Y                3
+E: 10.479859 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.484859 0002 0000 0010	# EV_REL / REL_X                10
+E: 10.484859 0002 0001 0003	# EV_REL / REL_Y                3
+E: 10.484859 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.489860 0002 0000 0007	# EV_REL / REL_X                7
+E: 10.489860 0002 0001 0003	# EV_REL / REL_Y                3
+E: 10.489860 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.499860 0002 0000 0013	# EV_REL / REL_X                13
+E: 10.499860 0002 0001 0006	# EV_REL / REL_Y                6
+E: 10.499860 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.509862 0002 0000 0007	# EV_REL / REL_X                7
+E: 10.509862 0002 0001 0005	# EV_REL / REL_Y                5
+E: 10.509862 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.514861 0002 0000 0012	# EV_REL / REL_X                12
+E: 10.514861 0002 0001 0008	# EV_REL / REL_Y                8
+E: 10.514861 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.519861 0002 0000 0013	# EV_REL / REL_X                13
+E: 10.519861 0002 0001 0007	# EV_REL / REL_Y                7
+E: 10.519861 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.529860 0002 0000 0015	# EV_REL / REL_X                15
+E: 10.529860 0002 0001 0007	# EV_REL / REL_Y                7
+E: 10.529860 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.535855 0002 0000 0016	# EV_REL / REL_X                16
+E: 10.535855 0002 0001 0008	# EV_REL / REL_Y                8
+E: 10.535855 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.544861 0002 0000 0014	# EV_REL / REL_X                14
+E: 10.544861 0002 0001 0009	# EV_REL / REL_Y                9
+E: 10.544861 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.549861 0002 0000 0018	# EV_REL / REL_X                18
+E: 10.549861 0002 0001 0012	# EV_REL / REL_Y                12
+E: 10.549861 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 10.559858 0002 0000 0011	# EV_REL / REL_X                11
+E: 10.559858 0002 0001 0007	# EV_REL / REL_Y                7
+E: 10.559858 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
