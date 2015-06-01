@@ -1,0 +1,132 @@
+# EVEMU 1.2
+# Input device name: "Wacom Cintiq 12WX Pad"
+# Input device ID: bus 0x03 vendor 0x56a product 0xc6 version 0x100
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 258 (BTN_2)
+#     Event code 259 (BTN_3)
+#     Event code 260 (BTN_4)
+#     Event code 261 (BTN_5)
+#     Event code 262 (BTN_6)
+#     Event code 263 (BTN_7)
+#     Event code 264 (BTN_8)
+#     Event code 265 (BTN_9)
+#     Event code 331 (BTN_STYLUS)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 3 (ABS_RX)
+#       Value      0
+#       Min        0
+#       Max     4096
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 4 (ABS_RY)
+#       Value      0
+#       Min        0
+#       Max     4096
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+N: Wacom Cintiq 12WX Pad
+I: 0003 056a 00c6 0100
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 ff 03 00 00 00 00 00 00
+B: 01 00 08 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 1b 00 00 00 00 01 00 00
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 1 0 0 0
+A: 01 0 1 0 0 0
+A: 03 0 4096 0 0 0
+A: 04 0 4096 0 0 0
+A: 28 0 0 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000000 0001 0109 0001	# EV_KEY / BTN_9                1
+E: 0.000000 0003 0028 0015	# EV_ABS / ABS_MISC             15
+E: 0.000000 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.148014 0001 0109 0000	# EV_KEY / BTN_9                0
+E: 0.148014 0003 0028 0000	# EV_ABS / ABS_MISC             0
+E: 0.148014 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.809053 0001 0106 0001	# EV_KEY / BTN_6                1
+E: 0.809053 0003 0028 0015	# EV_ABS / ABS_MISC             15
+E: 0.809053 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 0.943051 0001 0106 0000	# EV_KEY / BTN_6                0
+E: 0.943051 0003 0028 0000	# EV_ABS / ABS_MISC             0
+E: 0.943051 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.484059 0001 0107 0001	# EV_KEY / BTN_7                1
+E: 1.484059 0003 0028 0015	# EV_ABS / ABS_MISC             15
+E: 1.484059 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 1.635011 0001 0107 0000	# EV_KEY / BTN_7                0
+E: 1.635011 0003 0028 0000	# EV_ABS / ABS_MISC             0
+E: 1.635011 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.054022 0001 0105 0001	# EV_KEY / BTN_5                1
+E: 2.054022 0003 0028 0015	# EV_ABS / ABS_MISC             15
+E: 2.054022 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.205107 0001 0105 0000	# EV_KEY / BTN_5                0
+E: 2.205107 0003 0028 0000	# EV_ABS / ABS_MISC             0
+E: 2.205107 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.609084 0001 0104 0001	# EV_KEY / BTN_4                1
+E: 2.609084 0003 0028 0015	# EV_ABS / ABS_MISC             15
+E: 2.609084 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
+E: 2.789136 0001 0104 0000	# EV_KEY / BTN_4                0
+E: 2.789136 0003 0028 0000	# EV_ABS / ABS_MISC             0
+E: 2.789136 0000 0000 0000	# ------------ SYN_REPORT (0) ----------
