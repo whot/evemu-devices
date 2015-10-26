@@ -1,0 +1,264 @@
+austin@debian-laptop:~$ sudo evemu-describe 
+Available devices:
+/dev/input/event0:	AT Translated Set 2 keyboard
+/dev/input/event1:	Lid Switch
+/dev/input/event2:	Sleep Button
+/dev/input/event3:	Power Button
+/dev/input/event4:	ThinkPad Extra Buttons
+/dev/input/event5:	PC Speaker
+/dev/input/event6:	Integrated Camera
+/dev/input/event7:	HDA Digital PCBeep
+/dev/input/event8:	HDA Intel PCH Dock Mic
+/dev/input/event9:	HDA Intel PCH Mic
+/dev/input/event10:	HDA Intel PCH Dock Headphone
+/dev/input/event11:	HDA Intel PCH Headphone
+/dev/input/event12:	Video Bus
+/dev/input/event13:	SynPS/2 Synaptics TouchPad
+/dev/input/event14:	HDA Intel HDMI HDMI/DP,pcm=3
+/dev/input/event15:	HDA Intel HDMI HDMI/DP,pcm=7
+/dev/input/event16:	HDA Intel HDMI HDMI/DP,pcm=8
+/dev/input/event17:	TPPS/2 IBM TrackPoint
+/dev/input/event18:	Sony Computer Entertainment Wireless Stereo Headset
+Select the device event number [0-18]: 18   
+# EVEMU 1.2
+# Input device name: "Sony Computer Entertainment Wireless Stereo Headset"
+# Input device ID: bus 0x03 vendor 0x12ba product 0x34 version 0x111
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#   Event type 3 (EV_ABS)
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 41 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 42 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 43 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 44 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 45 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 46 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 49 (ABS_MT_TOUCH_MINOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 50 (ABS_MT_WIDTH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 51 (ABS_MT_WIDTH_MINOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 55 (ABS_MT_TOOL_TYPE)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 56 (ABS_MT_BLOB_ID)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 58 (ABS_MT_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 59 (ABS_MT_DISTANCE)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 60 (ABS_MT_TOOL_X)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 61 (ABS_MT_TOOL_Y)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 62 ((null))
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+#   Event type 20 (EV_REP)
+#     Event code 0 (REP_DELAY)
+# Properties:
+N: Sony Computer Entertainment Wireless Stereo Headset
+I: 0003 12ba 0034 0111
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 0c 00
+B: 01 00 00 00 00 38 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 00 00 00 00 00 ff ff 7f
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 01 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 28 0 255 0 0 0
+A: 29 0 255 0 0 0
+A: 2a 0 255 0 0 0
+A: 2b 0 255 0 0 0
+A: 2c 0 255 0 0 0
+A: 2d 0 255 0 0 0
+A: 2e 0 255 0 0 0
+A: 2f 0 255 0 0 0
+A: 30 0 255 0 0 0
+A: 31 0 255 0 0 0
+A: 32 0 255 0 0 0
+A: 33 0 255 0 0 0
+A: 34 0 255 0 0 0
+A: 35 0 255 0 0 0
+A: 36 0 255 0 0 0
+A: 37 0 255 0 0 0
+A: 38 0 255 0 0 0
+A: 39 0 255 0 0 0
+A: 3a 0 255 0 0 0
+A: 3b 0 255 0 0 0
+A: 3c 0 255 0 0 0
+A: 3d 0 255 0 0 0
+A: 3e 0 255 0 0 0
+A: 3f 0 255 0 0 0
