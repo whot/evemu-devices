@@ -1,0 +1,110 @@
+# EVEMU 1.3
+# Kernel: 4.4.4-200.fc22.x86_64
+# DMI: dmi:bvnLENOVO:bvrG7ET95WW(2.55):bd07/10/2013:svnLENOVO:pn2356JK8:pvrThinkPadT430s:rvnLENOVO:rn2356JK8:rvrNotDefined:cvnLENOVO:ct10:cvrNotAvailable:
+# Input device name: "Wacom Express Key Remote Pad"
+# Input device ID: bus 0x03 vendor 0x56a product 0x331 version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 258 (BTN_2)
+#     Event code 259 (BTN_3)
+#     Event code 260 (BTN_4)
+#     Event code 261 (BTN_5)
+#     Event code 262 (BTN_6)
+#     Event code 263 (BTN_7)
+#     Event code 264 (BTN_8)
+#     Event code 265 (BTN_9)
+#     Event code 294 (BTN_BASE)
+#     Event code 295 (BTN_BASE2)
+#     Event code 304 (BTN_SOUTH)
+#     Event code 305 (BTN_EAST)
+#     Event code 306 (BTN_C)
+#     Event code 307 (BTN_NORTH)
+#     Event code 308 (BTN_WEST)
+#     Event code 309 (BTN_Z)
+#     Event code 331 (BTN_STYLUS)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 8 (ABS_WHEEL)
+#       Value      0
+#       Min        0
+#       Max       71
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 0 (MSC_SERIAL)
+# Properties:
+N: Wacom Express Key Remote Pad
+I: 0003 056a 0331 0110
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 ff 03 00 00 c0 00 3f 00
+B: 01 00 08 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 01 00 00 00 01 00 00
+B: 04 01 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 1 0 0 0
+A: 01 0 1 0 0 0
+A: 08 0 71 0 0 0
+A: 28 0 0 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.059987 0001 0135 0001	# EV_KEY / BTN_Z                1
+E: 0.059987 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +59ms
+E: 0.179974 0001 0135 0000	# EV_KEY / BTN_Z                0
+E: 0.179974 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +120ms
