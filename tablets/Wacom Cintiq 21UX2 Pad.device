@@ -1,0 +1,109 @@
+# EVEMU 1.3
+# Kernel: 4.7.0-0.rc5.git3.1.rmi4.wacom.2.fc25.x86_64
+# DMI: dmi:bvnLENOVO:bvrGJET72WW(2.22):bd02/21/2014:svnLENOVO:pn20ARS25701:pvrThinkPadT440s:rvnLENOVO:rn20ARS25701:rvrSDK0E50512STD:cvnLENOVO:ct10:cvrNotAvailable:
+# Input device name: "Wacom Cintiq 21UX2 Pad"
+# Input device ID: bus 0x03 vendor 0x56a product 0xcc version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#   Event type 1 (EV_KEY)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 258 (BTN_2)
+#     Event code 259 (BTN_3)
+#     Event code 260 (BTN_4)
+#     Event code 261 (BTN_5)
+#     Event code 262 (BTN_6)
+#     Event code 263 (BTN_7)
+#     Event code 264 (BTN_8)
+#     Event code 265 (BTN_9)
+#     Event code 294 (BTN_BASE)
+#     Event code 295 (BTN_BASE2)
+#     Event code 304 (BTN_SOUTH)
+#     Event code 305 (BTN_EAST)
+#     Event code 306 (BTN_C)
+#     Event code 307 (BTN_NORTH)
+#     Event code 308 (BTN_WEST)
+#     Event code 309 (BTN_Z)
+#     Event code 331 (BTN_STYLUS)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 3 (ABS_RX)
+#       Value      0
+#       Min        0
+#       Max     4096
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 4 (ABS_RY)
+#       Value      0
+#       Min        0
+#       Max     4096
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 40 (ABS_MISC)
+#       Value      0
+#       Min        0
+#       Max        0
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+N: Wacom Cintiq 21UX2 Pad
+I: 0003 056a 00cc 0110
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 ff 03 00 00 c0 00 3f 00
+B: 01 00 08 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 1b 00 00 00 00 01 00 00
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 1 0 0 0
+A: 01 0 1 0 0 0
+A: 03 0 4096 0 0 0
+A: 04 0 4096 0 0 0
+A: 28 0 0 0 0 0
