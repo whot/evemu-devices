@@ -1,6 +1,6 @@
 # EVEMU 1.2
 # Logitech M570 on a unifying receiver, needs 3.19 for proper pid/vid, etc.
-# Input device name: "M570"
+# Input device name: "Logitech M570"
 # Input device ID: bus 0x03 vendor 0x46d product 0x1028 version 0x111
 # Supported events:
 #   Event type 0 (EV_SYN)
@@ -44,7 +44,7 @@
 #   Event type 4 (EV_MSC)
 #     Event code 4 (MSC_SCAN)
 # Properties:
-N: M570
+N: Logitech M570
 I: 0003 046d 1028 0111
 P: 00 00 00 00 00 00 00 00
 B: 00 0b 00 00 00 00 00 00 00
