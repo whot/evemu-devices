@@ -6,8 +6,8 @@ used to simulate physical input devices and re-play device events to
 reproduce behaviours or bugs of applications.
 
 For more information about evemu, see:
-http://wiki.freedesktop.org/wiki/Evemu
-http://cgit.freedesktop.org/evemu/
+https://freedesktop.org/wiki/Evemu
+https://cgit.freedesktop.org/evemu/
 
 Please note: use evemu 1.10 or later if possible. This version only requires
 a single event recording instead of a separate recording for the device and
