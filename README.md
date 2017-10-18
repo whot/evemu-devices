@@ -35,22 +35,22 @@ The below describes what event recordings will likely be useful in debugging
 your device. Substitute NAME with the name of your device.
 
 If your device is a keyboard:
-* NAME.qwerty.evemu: the top-left 5 keys (qwerty in us layout, azerty in fr, etc.) hit in left-to-right order
-* NAME.multimediakeys.evemu: the multimedia keys in left-to-right order. If one isn't working, note this in a comment at the top of the file
+* NAME.qwerty.events: the top-left 5 keys (qwerty in us layout, azerty in fr, etc.) hit in left-to-right order
+* NAME.multimediakeys.events: the multimedia keys in left-to-right order. If one isn't working, note this in a comment at the top of the file
 
 If your device is a mouse or trackball:
-* NAME.buttons.evemu: the mouse buttons in logical order (add a comment where it's not obvious). Ideally without mouse movement
-* NAME.motion.evemu: left, right, up, down, in that order, as straight as you can manage
-* NAME.scroll.evemu: up, down, left, right scroll events, in that order (where possible), ideally without mouse movement
+* NAME.buttons.events: the mouse buttons in logical order (add a comment where it's not obvious). Ideally without mouse movement
+* NAME.motion.events: left, right, up, down, in that order, as straight as you can manage
+* NAME.scroll.events: up, down, left, right scroll events, in that order (where possible), ideally without mouse movement
 
 If your device is a touchpad:
-* NAME.buttons.evemu: physical button presses in logical order
-* NAME.clickpad.evemu: clickpad button press
-* NAME.two-finger-vscroll.evemu: up, down two-finger scrolling, in that order.
-* NAME.two-finger-hscroll.evemu: left, right two-finger scrolling, in that order.
-* NAME.edge-vscroll.evemu: right edge one-finger scroll, up, down
-* NAME.edge-hscroll.evemu: bottom edge one-finger scroll, left, right
-* NAME.tap.evemu: single-finger tap
+* NAME.buttons.events: physical button presses in logical order
+* NAME.clickpad.events: clickpad button press
+* NAME.two-finger-vscroll.events: up, down two-finger scrolling, in that order.
+* NAME.two-finger-hscroll.events: left, right two-finger scrolling, in that order.
+* NAME.edge-vscroll.events: right edge one-finger scroll, up, down
+* NAME.edge-hscroll.events: bottom edge one-finger scroll, left, right
+* NAME.tap.events: single-finger tap
 
 if your touchpad supports multiple fingers, record a gesture with 3, 4, 5...
 fingers as well and name it appropriately.
