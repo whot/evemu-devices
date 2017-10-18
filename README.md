@@ -29,7 +29,7 @@ What to record
 --------------
 All devices need a device description format.
 
-   sudo evemu-device /dev/input/event0 > device-name.desc
+   sudo evemu-describe /dev/input/event0 > device-name.desc
 
 The below describes what event recordings will likely be useful in debugging
 your device. Substitute NAME with the name of your device.
