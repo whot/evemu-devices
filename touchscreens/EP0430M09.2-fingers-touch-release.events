@@ -1,0 +1,161 @@
+# EVEMU 1.3
+# Kernel: 4.9.20-ge-17.04-ge_mid_mmi_full-wuh
+# Input device name: "EP0430M09"
+# Input device ID: bus 0x18 vendor 0000 product 0000 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#     Event code 15 (SYN_MAX)
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      608
+#       Min          0
+#       Max       1279
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 1 (ABS_Y)
+#       Value      126
+#       Min          0
+#       Max        767
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value        0
+#       Min          0
+#       Max          4
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value        0
+#       Min          0
+#       Max       1279
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value        0
+#       Min          0
+#       Max        767
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value        0
+#       Min          0
+#       Max      65535
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
+N: EP0430M09
+I: 0018 0000 0000 0000
+P: 02 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 04 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 00 00 00 00 80 60 02
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 1279 0 0 0
+A: 01 0 767 0 0 0
+A: 2f 0 4 0 0 0
+A: 35 0 1279 0 0 0
+A: 36 0 767 0 0 0
+A: 39 0 65535 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000001 0003 0039 0001	# EV_ABS / ABS_MT_TRACKING_ID   1
+E: 0.000001 0003 0035 0404	# EV_ABS / ABS_MT_POSITION_X    404
+E: 0.000001 0003 0036 0409	# EV_ABS / ABS_MT_POSITION_Y    409
+E: 0.000001 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.000001 0003 0039 0002	# EV_ABS / ABS_MT_TRACKING_ID   2
+E: 0.000001 0003 0035 0933	# EV_ABS / ABS_MT_POSITION_X    933
+E: 0.000001 0003 0036 0414	# EV_ABS / ABS_MT_POSITION_Y    414
+E: 0.000001 0001 014a 0001	# EV_KEY / BTN_TOUCH            1
+E: 0.000001 0003 0000 0404	# EV_ABS / ABS_X                404
+E: 0.000001 0003 0001 0409	# EV_ABS / ABS_Y                409
+E: 0.000001 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +0ms
+E: 0.031808 0003 002f 0000	# EV_ABS / ABS_MT_SLOT          0
+E: 0.031808 0003 0035 0403	# EV_ABS / ABS_MT_POSITION_X    403
+E: 0.031808 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.031808 0003 0036 0415	# EV_ABS / ABS_MT_POSITION_Y    415
+E: 0.031808 0003 0000 0403	# EV_ABS / ABS_X                403
+E: 0.031808 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +31ms
+E: 0.063512 0003 002f 0000	# EV_ABS / ABS_MT_SLOT          0
+E: 0.063512 0003 0036 0410	# EV_ABS / ABS_MT_POSITION_Y    410
+E: 0.063512 0003 0001 0410	# EV_ABS / ABS_Y                410
+E: 0.063512 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +32ms
+E: 0.079501 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.079501 0003 0036 0416	# EV_ABS / ABS_MT_POSITION_Y    416
+E: 0.079501 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +16ms
+E: 0.126891 0003 0036 0417	# EV_ABS / ABS_MT_POSITION_Y    417
+E: 0.126891 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +47ms
+E: 0.142946 0003 002f 0000	# EV_ABS / ABS_MT_SLOT          0
+E: 0.142946 0003 0035 0402	# EV_ABS / ABS_MT_POSITION_X    402
+E: 0.142946 0003 0000 0402	# EV_ABS / ABS_X                402
+E: 0.142946 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +16ms
+E: 0.230468 0003 0036 0411	# EV_ABS / ABS_MT_POSITION_Y    411
+E: 0.230468 0003 0001 0411	# EV_ABS / ABS_Y                411
+E: 0.230468 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +88ms
+E: 0.269963 0003 0035 0401	# EV_ABS / ABS_MT_POSITION_X    401
+E: 0.269963 0003 0000 0401	# EV_ABS / ABS_X                401
+E: 0.269963 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +39ms
+E: 0.364974 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.364974 0003 0036 0418	# EV_ABS / ABS_MT_POSITION_Y    418
+E: 0.364974 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +95ms
+E: 0.483073 0003 0036 0417	# EV_ABS / ABS_MT_POSITION_Y    417
+E: 0.483073 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +119ms
+E: 0.498730 0003 002f 0000	# EV_ABS / ABS_MT_SLOT          0
+E: 0.498730 0003 0036 0410	# EV_ABS / ABS_MT_POSITION_Y    410
+E: 0.498730 0003 0001 0410	# EV_ABS / ABS_Y                410
+E: 0.498730 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +15ms
+E: 0.506283 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.506283 0003 0036 0416	# EV_ABS / ABS_MT_POSITION_Y    416
+E: 0.506283 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +8ms
+E: 0.513464 0003 0035 0934	# EV_ABS / ABS_MT_POSITION_X    934
+E: 0.513464 0003 002f 0000	# EV_ABS / ABS_MT_SLOT          0
+E: 0.513464 0003 0039 -001	# EV_ABS / ABS_MT_TRACKING_ID   -1
+E: 0.513464 0003 0000 0934	# EV_ABS / ABS_X                934
+E: 0.513464 0003 0001 0416	# EV_ABS / ABS_Y                416
+E: 0.513464 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +7ms
+E: 0.527810 0003 002f 0001	# EV_ABS / ABS_MT_SLOT          1
+E: 0.527810 0003 0039 -001	# EV_ABS / ABS_MT_TRACKING_ID   -1
+E: 0.527810 0001 014a 0000	# EV_KEY / BTN_TOUCH            0
+E: 0.527810 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +14ms
