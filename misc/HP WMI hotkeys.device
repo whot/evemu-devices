@@ -1,0 +1,71 @@
+# EVEMU 1.3
+# Kernel: 4.11.8-300.fc26.x86_64
+# DMI: dmi:bvnInsyde:bvrF.10:bd07/28/2017:svnHP:pnHPPavilionPowerLaptop15-cb0xx:pvrType1ProductConfigId:rvnHP:rn836B:rvr46.21:cvnHP:ct10:cvrChassisVersion:
+# Input device name: "HP WMI hotkeys"
+# Input device ID: bus 0x19 vendor 0000 product 0000 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#     Event code 15 (SYN_MAX)
+#   Event type 1 (EV_KEY)
+#     Event code 138 (KEY_HELP)
+#     Event code 141 (KEY_SETUP)
+#     Event code 148 (KEY_PROG1)
+#     Event code 153 (KEY_ROTATE_DISPLAY)
+#     Event code 224 (KEY_BRIGHTNESSDOWN)
+#     Event code 225 (KEY_BRIGHTNESSUP)
+#     Event code 226 (KEY_MEDIA)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 358 (KEY_INFO)
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+#   Event type 5 (EV_SW)
+#     Event code 1 (SW_TABLET_MODE)
+#        State 1
+#     Event code 5 (SW_DOCK)
+#        State 1
+# Properties:
+N: HP WMI hotkeys
+I: 0019 0000 0000 0000
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 24 10 02 00 00 00 00
+B: 01 00 00 00 00 07 00 01 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 40 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 00 00 00 00 00 00 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 22 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+S: 01 1
+S: 05 1
+################################
+#      Waiting for events      #
+################################
