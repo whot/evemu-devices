@@ -1,0 +1,405 @@
+# EVEMU 1.3
+# Kernel: 4.13.11-200.fc26.x86_64
+# DMI: dmi:bvnDellInc.:bvrA06:bd11/20/2010:svnDellInc.:pnLatitudeE6510:pvr0001:rvnDellInc.:rn02K3Y4:rvrA00:cvnDellInc.:ct9:cvr:
+# Input device name: "Lenovo ThinkPad Compact USB Keyboard with TrackPoint"
+# Input device ID: bus 0x03 vendor 0x17ef product 0x6047 version 0x100
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#     Event code 15 (SYN_MAX)
+#   Event type 1 (EV_KEY)
+#     Event code 1 (KEY_ESC)
+#     Event code 28 (KEY_ENTER)
+#     Event code 74 (KEY_KPMINUS)
+#     Event code 78 (KEY_KPPLUS)
+#     Event code 103 (KEY_UP)
+#     Event code 105 (KEY_LEFT)
+#     Event code 106 (KEY_RIGHT)
+#     Event code 108 (KEY_DOWN)
+#     Event code 113 (KEY_MUTE)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 116 (KEY_POWER)
+#     Event code 119 (KEY_PAUSE)
+#     Event code 120 (KEY_SCALE)
+#     Event code 128 (KEY_STOP)
+#     Event code 130 (KEY_PROPS)
+#     Event code 131 (KEY_UNDO)
+#     Event code 133 (KEY_COPY)
+#     Event code 134 (KEY_OPEN)
+#     Event code 135 (KEY_PASTE)
+#     Event code 136 (KEY_FIND)
+#     Event code 137 (KEY_CUT)
+#     Event code 138 (KEY_HELP)
+#     Event code 139 (KEY_MENU)
+#     Event code 140 (KEY_CALC)
+#     Event code 142 (KEY_SLEEP)
+#     Event code 144 (KEY_FILE)
+#     Event code 150 (KEY_WWW)
+#     Event code 152 (KEY_COFFEE)
+#     Event code 155 (KEY_MAIL)
+#     Event code 156 (KEY_BOOKMARKS)
+#     Event code 158 (KEY_BACK)
+#     Event code 159 (KEY_FORWARD)
+#     Event code 161 (KEY_EJECTCD)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#     Event code 166 (KEY_STOPCD)
+#     Event code 167 (KEY_RECORD)
+#     Event code 168 (KEY_REWIND)
+#     Event code 169 (KEY_PHONE)
+#     Event code 171 (KEY_CONFIG)
+#     Event code 172 (KEY_HOMEPAGE)
+#     Event code 173 (KEY_REFRESH)
+#     Event code 174 (KEY_EXIT)
+#     Event code 177 (KEY_SCROLLUP)
+#     Event code 178 (KEY_SCROLLDOWN)
+#     Event code 181 (KEY_NEW)
+#     Event code 206 (KEY_CLOSE)
+#     Event code 207 (KEY_PLAY)
+#     Event code 208 (KEY_FASTFORWARD)
+#     Event code 209 (KEY_BASSBOOST)
+#     Event code 210 (KEY_PRINT)
+#     Event code 212 (KEY_CAMERA)
+#     Event code 216 (KEY_CHAT)
+#     Event code 217 (KEY_SEARCH)
+#     Event code 219 (KEY_FINANCE)
+#     Event code 224 (KEY_BRIGHTNESSDOWN)
+#     Event code 225 (KEY_BRIGHTNESSUP)
+#     Event code 227 (KEY_SWITCHVIDEOMODE)
+#     Event code 228 (KEY_KBDILLUMTOGGLE)
+#     Event code 234 (KEY_SAVE)
+#     Event code 235 (KEY_DOCUMENTS)
+#     Event code 238 (KEY_WLAN)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 241 (KEY_VIDEO_NEXT)
+#     Event code 244 (KEY_BRIGHTNESS_AUTO)
+#     Event code 248 (KEY_MICMUTE)
+#     Event code 256 (BTN_0)
+#     Event code 257 (BTN_1)
+#     Event code 258 (BTN_2)
+#     Event code 259 (BTN_3)
+#     Event code 272 (BTN_LEFT)
+#     Event code 273 (BTN_RIGHT)
+#     Event code 274 (BTN_MIDDLE)
+#     Event code 275 (BTN_SIDE)
+#     Event code 276 (BTN_EXTRA)
+#     Event code 353 (KEY_SELECT)
+#     Event code 354 (KEY_GOTO)
+#     Event code 358 (KEY_INFO)
+#     Event code 362 (KEY_PROGRAM)
+#     Event code 366 (KEY_PVR)
+#     Event code 370 (KEY_SUBTITLE)
+#     Event code 372 (KEY_ZOOM)
+#     Event code 374 (KEY_KEYBOARD)
+#     Event code 376 (KEY_PC)
+#     Event code 377 (KEY_TV)
+#     Event code 378 (KEY_TV2)
+#     Event code 379 (KEY_VCR)
+#     Event code 380 (KEY_VCR2)
+#     Event code 381 (KEY_SAT)
+#     Event code 383 (KEY_CD)
+#     Event code 384 (KEY_TAPE)
+#     Event code 386 (KEY_TUNER)
+#     Event code 387 (KEY_PLAYER)
+#     Event code 389 (KEY_DVD)
+#     Event code 392 (KEY_AUDIO)
+#     Event code 393 (KEY_VIDEO)
+#     Event code 396 (KEY_MEMO)
+#     Event code 397 (KEY_CALENDAR)
+#     Event code 398 (KEY_RED)
+#     Event code 399 (KEY_GREEN)
+#     Event code 400 (KEY_YELLOW)
+#     Event code 401 (KEY_BLUE)
+#     Event code 402 (KEY_CHANNELUP)
+#     Event code 403 (KEY_CHANNELDOWN)
+#     Event code 405 (KEY_LAST)
+#     Event code 407 (KEY_NEXT)
+#     Event code 408 (KEY_RESTART)
+#     Event code 409 (KEY_SLOW)
+#     Event code 410 (KEY_SHUFFLE)
+#     Event code 412 (KEY_PREVIOUS)
+#     Event code 416 (KEY_VIDEOPHONE)
+#     Event code 417 (KEY_GAMES)
+#     Event code 418 (KEY_ZOOMIN)
+#     Event code 419 (KEY_ZOOMOUT)
+#     Event code 420 (KEY_ZOOMRESET)
+#     Event code 421 (KEY_WORDPROCESSOR)
+#     Event code 422 (KEY_EDITOR)
+#     Event code 423 (KEY_SPREADSHEET)
+#     Event code 424 (KEY_GRAPHICSEDITOR)
+#     Event code 425 (KEY_PRESENTATION)
+#     Event code 426 (KEY_DATABASE)
+#     Event code 427 (KEY_NEWS)
+#     Event code 428 (KEY_VOICEMAIL)
+#     Event code 429 (KEY_ADDRESSBOOK)
+#     Event code 430 (KEY_MESSENGER)
+#     Event code 431 (KEY_DISPLAYTOGGLE)
+#     Event code 432 (KEY_SPELLCHECK)
+#     Event code 433 (KEY_LOGOFF)
+#     Event code 439 (KEY_MEDIA_REPEAT)
+#     Event code 442 (KEY_IMAGES)
+#     Event code 465 (KEY_FN_ESC)
+#     Event code 576 (KEY_BUTTONCONFIG)
+#     Event code 577 (KEY_TASKMANAGER)
+#     Event code 578 (KEY_JOURNAL)
+#     Event code 579 (KEY_CONTROLPANEL)
+#     Event code 580 (KEY_APPSELECT)
+#     Event code 581 (KEY_SCREENSAVER)
+#     Event code 582 (KEY_VOICECOMMAND)
+#     Event code 592 (KEY_BRIGHTNESS_MIN)
+#     Event code 593 (KEY_BRIGHTNESS_MAX)
+#   Event type 2 (EV_REL)
+#     Event code 0 (REL_X)
+#     Event code 1 (REL_Y)
+#     Event code 6 (REL_HWHEEL)
+#     Event code 8 (REL_WHEEL)
+#   Event type 3 (EV_ABS)
+#     Event code 32 (ABS_VOLUME)
+#       Value        0
+#       Min          0
+#       Max        572
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 40 (ABS_MISC)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 41 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 42 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 43 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 44 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 45 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 46 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 49 (ABS_MT_TOUCH_MINOR)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 50 (ABS_MT_WIDTH_MAJOR)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 51 (ABS_MT_WIDTH_MINOR)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 55 (ABS_MT_TOOL_TYPE)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 56 (ABS_MT_BLOB_ID)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 58 (ABS_MT_PRESSURE)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 59 (ABS_MT_DISTANCE)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 60 (ABS_MT_TOOL_X)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 61 (ABS_MT_TOOL_Y)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 62 ((null))
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#     Event code 63 (ABS_MAX)
+#       Value        0
+#       Min          0
+#       Max        255
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+# Properties:
+#   Property  type 0 (INPUT_PROP_POINTER)
+#   Property  type 5 (INPUT_PROP_POINTING_STICK)
+N: Lenovo ThinkPad Compact USB Keyboard with TrackPoint
+I: 0003 17ef 6047 0100
+P: 21 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 02 00 00 10 00 00 00 00
+B: 01 00 44 00 00 80 16 9e 01
+B: 01 ed 5f 41 d9 fa 7b 26 00
+B: 01 00 c0 17 0b 1b 4c 13 01
+B: 01 0f 00 1f 00 00 00 00 00
+B: 01 00 00 00 00 46 44 54 bf
+B: 01 2d f3 af 17 ff ff 83 04
+B: 01 00 00 02 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 7f 00 03 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 43 01 00 00 00 00 00 00
+B: 03 00 00 00 00 01 ff ff ff
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 20 0 572 0 0 0
+A: 28 0 255 0 0 0
+A: 29 0 255 0 0 0
+A: 2a 0 255 0 0 0
+A: 2b 0 255 0 0 0
+A: 2c 0 255 0 0 0
+A: 2d 0 255 0 0 0
+A: 2e 0 255 0 0 0
+A: 2f 0 255 0 0 0
+A: 30 0 255 0 0 0
+A: 31 0 255 0 0 0
+A: 32 0 255 0 0 0
+A: 33 0 255 0 0 0
+A: 34 0 255 0 0 0
+A: 35 0 255 0 0 0
+A: 36 0 255 0 0 0
+A: 37 0 255 0 0 0
+A: 38 0 255 0 0 0
+A: 39 0 255 0 0 0
+A: 3a 0 255 0 0 0
+A: 3b 0 255 0 0 0
+A: 3c 0 255 0 0 0
+A: 3d 0 255 0 0 0
+A: 3e 0 255 0 0 0
+A: 3f 0 255 0 0 0
+################################
+#      Waiting for events      #
+################################
